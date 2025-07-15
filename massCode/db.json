@@ -1,0 +1,1302 @@
+{
+  "folders": [
+    {
+      "id": "Kg_CHTIf",
+      "name": "Default",
+      "defaultLanguage": "typescript",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "createdAt": 1663003297506,
+      "updatedAt": 1663003297506,
+      "index": 0
+    },
+    {
+      "name": "utils",
+      "parentId": "zU28Afd-",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "python",
+      "id": "sKmo_Qtt",
+      "createdAt": 1663647834795,
+      "updatedAt": 1663647891225,
+      "index": 0
+    },
+    {
+      "name": "pydantic",
+      "parentId": "zU28Afd-",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "cJfyk-Yj",
+      "createdAt": 1741247742733,
+      "updatedAt": 1741247756255,
+      "index": 1
+    },
+    {
+      "name": "configs",
+      "parentId": "zU28Afd-",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "-ioqNk6R",
+      "createdAt": 1745216143822,
+      "updatedAt": 1745216161871,
+      "index": 2
+    },
+    {
+      "name": "Python",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "python",
+      "id": "zU28Afd-",
+      "createdAt": 1663003353149,
+      "updatedAt": 1663561442433,
+      "index": 1
+    },
+    {
+      "name": "nginx",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "nginx",
+      "id": "7n_FFJOK",
+      "createdAt": 1663145692263,
+      "updatedAt": 1726832574080,
+      "index": 0
+    },
+    {
+      "name": "Bash",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "Iet4JM1W",
+      "createdAt": 1664348167637,
+      "updatedAt": 1664348178868,
+      "index": 1
+    },
+    {
+      "name": "Git",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "UVf2JpXq",
+      "createdAt": 1667186068718,
+      "updatedAt": 1667186089227,
+      "index": 2
+    },
+    {
+      "name": "FFmpeg",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "El10Ht_I",
+      "createdAt": 1679386850491,
+      "updatedAt": 1679386888600,
+      "index": 3
+    },
+    {
+      "name": "Linux",
+      "parentId": null,
+      "isOpen": true,
+      "isSystem": false,
+      "defaultLanguage": "sh",
+      "id": "NwKHla-1",
+      "createdAt": 1663145666014,
+      "updatedAt": 1679386792738,
+      "index": 2
+    },
+    {
+      "name": "Windows",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "powershell",
+      "id": "U0Pad1H_",
+      "createdAt": 1663559978747,
+      "updatedAt": 1663561410146,
+      "index": 3
+    },
+    {
+      "name": "blender",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "python",
+      "id": "KTu5WhDu",
+      "createdAt": 1676342170991,
+      "updatedAt": 1676342185803,
+      "index": 4
+    },
+    {
+      "name": "misc",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "EyBB2RtS",
+      "createdAt": 1720518544606,
+      "updatedAt": 1720518557473,
+      "index": 5
+    },
+    {
+      "name": "postgresql",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "dcS7Nw8E",
+      "createdAt": 1740575157667,
+      "updatedAt": 1740575164774,
+      "index": 6
+    },
+    {
+      "name": "Vue3",
+      "parentId": "3FgM-9vH",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "CVfPphVL",
+      "createdAt": 1740968499122,
+      "updatedAt": 1740968505018,
+      "index": 0
+    },
+    {
+      "name": "Frontend",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "3FgM-9vH",
+      "createdAt": 1740968516731,
+      "updatedAt": 1740968532231,
+      "index": 7
+    },
+    {
+      "name": "Elixir",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "elixir",
+      "id": "pJ9AnX4i",
+      "createdAt": 1663004143397,
+      "updatedAt": 1663561389435,
+      "index": 8
+    }
+  ],
+  "snippets": [
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "pJ9AnX4i",
+      "tagsIds": [
+        "pUptd7ln",
+        "O368MAht"
+      ],
+      "description": "recursively list all files",
+      "name": "list all files recursively",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "value": "def ls_r(path) do\n  cond do\n    File.regular?(path) -> [path]\n    File.dir?(path) ->\n      File.ls!(path)\n        |> Enum.map(&Path.join(path, &1))\n        |> Enum.map(&ls_r/1)\n        |> Enum.concat\n    true -> []\n  end\nend",
+          "language": "elixir"
+        }
+      ],
+      "id": "uhH5raSC",
+      "createdAt": 1663003921012,
+      "updatedAt": 1663560852539
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "pJ9AnX4i",
+      "tagsIds": [
+        "4WbQqPRQ",
+        "O368MAht"
+      ],
+      "description": null,
+      "name": "shuffle",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "elixir",
+          "value": "Enum.shuffle(iterable)"
+        }
+      ],
+      "id": "JDga8hhg",
+      "createdAt": 1663004298263,
+      "updatedAt": 1663561347041
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "7n_FFJOK",
+      "tagsIds": [
+        "XnUwR9Dh"
+      ],
+      "description": null,
+      "name": "nginx | conf example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "nginx",
+          "value": "server {\n    listen 8765;\n    server_name 10.10.30.159;\n\n    client_max_body_size 5000M;\n    proxy_connect_timeout 3600s;\n    proxy_send_timeout 3600s;\n    proxy_read_timeout 3600s;\n\n    proxy_buffer_size 128k;\n    proxy_buffers   32 128k;\n    proxy_busy_buffers_size 128k;\n\n    root /var/www/simple-task-server/;\n    index index.html;\n\n    location /apis/ {\n        proxy_pass http://127.0.0.1:8764;\n    \n        proxy_set_header   Host             $host;\n        proxy_set_header   X-Real-IP        $remote_addr;\n        proxy_set_header   X-Forwarded-For  $proxy_add_x_forwarded_for;\n    }\n\n    location /statics/ {\n        alias /home/mocap/repos/simple-task-server/outputs/;\n        autoindex on;\n        \n       #location /statics/.*\\.mp4$ {\n       #    mp4;\n       #    mp4_buffer_size     1m;\n       #    mp4_max_buffer_size 1024m;\n       #}\n    }\n\n    location / {\n        try_files $uri $uri/ /index.html;\n    }\n}\n\n"
+        }
+      ],
+      "id": "h40eQcxU",
+      "createdAt": 1663145714543,
+      "updatedAt": 1720595561628
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "U0Pad1H_",
+      "tagsIds": [
+        "uGvsr2dk"
+      ],
+      "description": "kill process of pid xxx",
+      "name": "cmd taskkill",
+      "content": [
+        {
+          "label": "cmd",
+          "language": "powershell",
+          "value": "taskkill /pid xxx -f"
+        },
+        {
+          "label": "powershell",
+          "language": "powershell",
+          "value": "# Stop all instances of a process\nStop-Process -Name \"xxx\"\n\n# Stop a specific instance of a process\nStop-Process -Id yyyy -Confirm -PassThru"
+        }
+      ],
+      "id": "IMiTfp8j",
+      "createdAt": 1663559987934,
+      "updatedAt": 1663562014034
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "U0Pad1H_",
+      "tagsIds": [
+        "uGvsr2dk"
+      ],
+      "description": "list process of name xxx.exe",
+      "name": "cmd tasklist",
+      "content": [
+        {
+          "label": "cmd",
+          "language": "powershell",
+          "value": "tasklist /fi \"imagename eq xxx.exe\""
+        },
+        {
+          "label": "powershell",
+          "language": "powershell",
+          "value": "gps xxx.exe\nGet-Process -Name xxx.exe\nGet-Process xxx.exe"
+        }
+      ],
+      "id": "oeMXyMR7",
+      "createdAt": 1663560148782,
+      "updatedAt": 1663561840047
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "7n_FFJOK",
+      "tagsIds": [
+        "XnUwR9Dh"
+      ],
+      "description": "modify options in /etc/nginx/nginx.conf",
+      "name": "nginx | optimize",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "nginx",
+          "value": "#user  nobody;\n\n#==工作进程数，一般设置为cpu核心数\nworker_processes  1;\n\n#error_log  logs/error.log;\n#error_log  logs/error.log  notice;\n#error_log  logs/error.log  info;\n\n#pid        logs/nginx.pid;\n\n\nevents {\n\n    #==最大连接数，一般设置为cpu*2048\n    worker_connections  1024;\n}\n\n\nhttp {\n    include       mime.types;\n    default_type  application/octet-stream;\n\n    #log_format  main  '$remote_addr - $remote_user [$time_local] \"$request\" '\n    #                  '$status $body_bytes_sent \"$http_referer\" '\n    #                  '\"$http_user_agent\" \"$http_x_forwarded_for\"';\n\n    #access_log  logs/access.log  main;\n\n    sendfile        on;\n    #tcp_nopush     on;\n\n    #keepalive_timeout  0;\n    \n    #==客户端链接超时时间\n    keepalive_timeout  65;\n\n    #gzip  on;\n\n    #当配置多个server节点时，默认server names的缓存区大小就不够了，需要手动设置大一点\n    server_names_hash_bucket_size 512;\n\n    #server表示虚拟主机可以理解为一个站点，可以配置多个server节点搭建多个站点\n    #每一个请求进来确定使用哪个server由server_name确定\n    server {\n        #站点监听端口\n        listen       8800;\n        #站点访问域名\n        server_name  localhost;\n        \n        #编码格式，避免url参数乱码\n        charset utf-8;\n\n        #access_log  logs/host.access.log  main;\n\n        #location用来匹配同一域名下多个URI的访问规则\n        #比如动态资源如何跳转，静态资源如何跳转等\n        #location后面跟着的/代表匹配规则\n        location / {\n            #站点根目录，可以是相对路径，也可以使绝对路径\n            root   html;\n            #默认主页\n            index  index.html index.htm;\n            \n            #转发后端站点地址，一般用于做软负载，轮询后端服务器\n            #proxy_pass http://10.11.12.237:8080;\n\n            #拒绝请求，返回403，一般用于某些目录禁止访问\n            #deny all;\n            \n            #允许请求\n            #allow all;\n            \n            add_header 'Access-Control-Allow-Origin' '*';\n            add_header 'Access-Control-Allow-Credentials' 'true';\n            add_header 'Access-Control-Allow-Methods' 'GET, POST, OPTIONS';\n            add_header 'Access-Control-Allow-Headers' 'DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type';\n            #重新定义或者添加发往后端服务器的请求头\n            #给请求头中添加客户请求主机名\n            proxy_set_header Host $host;\n            #给请求头中添加客户端IP\n            proxy_set_header X-Real-IP $remote_addr;\n            #将$remote_addr变量值添加在客户端“X-Forwarded-For”请求头的后面，并以逗号分隔。 如果客户端请求未携带“X-Forwarded-For”请求头，$proxy_add_x_forwarded_for变量值将与$remote_addr变量相同  \n            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n            #给请求头中添加客户端的Cookie\n            proxy_set_header Cookie $http_cookie;\n            #将使用代理服务器的主域名和端口号来替换。如果端口是80，可以不加。\n            proxy_redirect off;\n            \n            #浏览器对 Cookie 有很多限制，如果 Cookie 的 Domain 部分与当前页面的 Domain 不匹配就无法写入。\n            #所以如果请求 A 域名，服务器 proxy_pass 到 B 域名，然后 B 服务器输出 Domian=B 的 Cookie，\n            #前端的页面依然停留在 A 域名上，于是浏览器就无法将 Cookie 写入。\n            \n　　         #不仅是域名，浏览器对 Path 也有限制。我们经常会 proxy_pass 到目标服务器的某个 Path 下，\n            #不把这个 Path 暴露给浏览器。这时候如果目标服务器的 Cookie 写死了 Path 也会出现 Cookie 无法写入的问题。\n            \n            #设置“Set-Cookie”响应头中的domain属性的替换文本，其值可以为一个字符串、正则表达式的模式或一个引用的变量\n            #转发后端服务器如果需要Cookie则需要将cookie domain也进行转换，否则前端域名与后端域名不一致cookie就会无法存取\n　　　　　　  #配置规则：proxy_cookie_domain serverDomain(后端服务器域) nginxDomain(nginx服务器域)\n            proxy_cookie_domain localhost .testcaigou800.com;\n            \n            #取消当前配置级别的所有proxy_cookie_domain指令\n            #proxy_cookie_domain off;\n            #与后端服务器建立连接的超时时间。一般不可能大于75秒；\n            proxy_connect_timeout 30;\n        }\n\n        #error_page  404              /404.html;\n\n        # redirect server error pages to the static page /50x.html\n        #\n        error_page   500 502 503 504  /50x.html;\n        location = /50x.html {\n            root   html;\n        }\n\n    }\n    \n　　#当需要对同一端口监听多个域名时，使用如下配置，端口相同域名不同，server_name也可以使用正则进行配置\n　　#但要注意server过多需要手动扩大server_names_hash_bucket_size缓存区大小\n　　server {\n　　　　listen 80;\n　　　　server_name www.abc.com;\n　　　　charset utf-8;\n　　　　location / {\n　　　　　　proxy_pass http://localhost:10001;\n　　　　}\n　　}\n　　server {\n　　　　listen 80;\n　　　　server_name aaa.abc.com;\n　　　　charset utf-8;\n　　　　location / {\n　　　　　　proxy_pass http://localhost:20002;\n　　　　}\n　　}\n}"
+        }
+      ],
+      "id": "dwn-Wbr-",
+      "createdAt": 1663560805460,
+      "updatedAt": 1720595558268
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "pJ9AnX4i",
+      "tagsIds": [
+        "4WbQqPRQ"
+      ],
+      "description": "set random seed",
+      "name": "random seed",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "elixir",
+          "value": ":rand.seed(:exsss, {1, 2, 3})"
+        }
+      ],
+      "id": "LcY4EG2U",
+      "createdAt": 1663561317418,
+      "updatedAt": 1663561368737
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "6U0taZTQ",
+        "jJQfpmRH"
+      ],
+      "description": "customize progress bar via rich (`pip install 'rich>12'`)",
+      "name": "rich Progress",
+      "content": [
+        {
+          "label": "Definition",
+          "language": "python",
+          "value": "# Docs:\n# <https://rich.readthedocs.io/en/stable/progress.html#advanced-usage>\n\nfrom typing import Tuple, Union\n\nfrom rich.progress import Progress as richProgress\nfrom rich.progress import (\n    ProgressColumn,\n    TextColumn,\n    MofNCompleteColumn,\n    BarColumn,\n    TaskProgressColumn,\n    TimeRemainingColumn,\n    TimeElapsedColumn,\n)\n\n\nclass Progress(richProgress):\n    @classmethod\n    def get_default_columns(cls) -> Tuple[Union[ProgressColumn, str], ...]:\n        return (\n            TextColumn(\"{task.description}\"),\n            MofNCompleteColumn(),\n            BarColumn(),\n            TaskProgressColumn(show_speed=True),\n            TimeRemainingColumn(),\n            TimeElapsedColumn(),\n            \"[green]{task.speed}/s\"\n        )\n"
+        },
+        {
+          "label": "How to Use",
+          "language": "python",
+          "value": "with Progress() as _progress_:\n    task1 = _progress_.add_task(description='xxx', total=100)\n    for i in range(100):\n        # do something\n        \n        _progress_.advance(task1)\n    _progress_.refresh()\n"
+        }
+      ],
+      "id": "T9XcNsGD",
+      "createdAt": 1663645134595,
+      "updatedAt": 1750327777810
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "6U0taZTQ",
+        "dYOw26u9"
+      ],
+      "description": "customized json encoder for more date types.\n\n\nusage:\njson.dumps(foo, cls=CJsonEncoder)",
+      "name": "CJsonEncoder",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import datetime\nimport decimal\nimport json\n\n\nclass CJsonEncoder(json.JSONEncoder):\n    def default(self, obj):\n        if isinstance(obj, datetime.datetime):\n            return obj.strftime('%Y-%m-%d %H:%M:%S')\n        elif isinstance(obj, datetime.date):\n            return obj.strftime(\"%Y-%m-%d\")\n        elif isinstance(obj, datetime.time):\n            return obj.strftime('%H:%M:%S')\n        elif isinstance(obj, decimal.Decimal):\n            return float(obj)\n        # elif isinstance(obj, (np.ndarray, np.generic)):\n        # \t  return obj.tolist()\n        else:\n            return json.JSONEncoder.default(self, obj)\n"
+        }
+      ],
+      "id": "CYfMV6_f",
+      "createdAt": 1663646927689,
+      "updatedAt": 1742811094159
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cJfyk-Yj",
+      "tagsIds": [
+        "axZEQ4Cd",
+        "LUCkjbM8"
+      ],
+      "description": "Not for Pydantic>=2.0\n\n\n\nrequirements: orjson, pydantic",
+      "name": "pydantic BaseModel",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import orjson\nfrom pathlib import Path\nfrom pydantic import BaseModel as PydanticBaseModel\nfrom pydantic import validate_model\nfrom typing import TYPE_CHECKING, Union\n\n# from utils.tools import CJsonEncoder\n\n# trick PyRight into thinking that it might be both False or True\nif not TYPE_CHECKING:\n    def base_model(model):\n        return model\nelse:\n    from dataclasses import dataclass as base_model\n\n\ndef orjson_dumps(v, *, default=CJsonEncoder.default):\n    # orjson.dumps returns bytes, to match standard json.dumps we need to decode\n    return orjson.dumps(v, default=default).decode()\n\n\n@base_model\nclass BaseModel(PydanticBaseModel):\n    class Config:\n        use_enum_values = True\n        # Automatically validate values for each assignment.\n        validate_assignment = True\n        # validate field defaults\n        validate_all = True\n\n        extra = 'forbid'  # 'allow', 'forbid', 'ignore'\n\n        json_loads = orjson.loads\n        json_dumps = orjson_dumps\n\n        # json_encoders = {\n        #     datetime.datetime: lambda v: v.strftime('%Y-%m-%d %H:%M:%S'),\n        #     datetime.date: lambda v: v.strftime(\"%Y-%m-%d\"),\n        #     datetime.time: lambda v: v.strftime('%H:%M:%S'),\n        #     datetime.timedelta: timedelta_isoformat,\n        #     decimal.Decimal: lambda v: float(v),\n        # }\n\n    def check(self):\n        \"\"\"Call this method for manual validation.\"\"\"\n        *_, validation_error = validate_model(self.__class__, self.__dict__)\n        if validation_error:\n            raise validation_error\n    \n    def dump_json(self, path: Union[str, Path], indent=2, sort_keys=True, **kwargs) -> None:\n        \"\"\"Dump into json file.\"\"\"\n        # validate before dump\n        self.check()\n        # dump json\n        with open(path, 'w') as f:\n            orjson.dump(self.dict(), f, indent=indent, sort_keys=sort_keys, **kwargs)\n"
+        }
+      ],
+      "id": "VrE8Gr1l",
+      "createdAt": 1663647064336,
+      "updatedAt": 1741248709566
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cJfyk-Yj",
+      "tagsIds": [
+        "axZEQ4Cd",
+        "LUCkjbM8"
+      ],
+      "description": null,
+      "name": "pydantic | schema for web app",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "from typing import Generic, TypeVar\n\nfrom pydantic import BaseModel, ConfigDict, computed_field\nfrom pydantic.types import NonNegativeInt, PositiveInt\n\n\nclass BaseSchema(BaseModel):\n    model_config = ConfigDict(\n        validate_assignment=True,\n        extra=\"ignore\",\n    )\n\n    def dict(self):\n        \"\"\"A shortcut to dump the model as a dict with model_dump().\"\"\"\n        return self.model_dump()\n\n\nclass RequestBase(BaseSchema):\n    \"\"\"Base model for request params.\"\"\"\n\n    pass\n\n\nclass ResponseBase(BaseSchema):\n    \"\"\"Base model for response data.\"\"\"\n\n    code: int = 0\n    msg: str = \"\"\n    data: dict | BaseSchema | None\n\n\nT = TypeVar(\"T\")\n\n\nclass PageData(BaseSchema, Generic[T]):\n    items: list[T]\n    page: PositiveInt\n    page_size: PositiveInt\n    item_count: NonNegativeInt\n\n    @computed_field\n    @property\n    def page_count(self) -> NonNegativeInt:\n        return (self.item_count - 1) // self.page_size + 1\n\n\nclass PaginationMixin:\n    page: PositiveInt = 1\n    page_size: PositiveInt = 20\n\n    def get_offset(self) -> NonNegativeInt:\n        \"\"\"Get the offset based on the page and page_size.\n\n        Returns\n            NonNegativeInt: The offset value.\n        \"\"\"\n        return (self.page - 1) * self.page_size\n"
+        }
+      ],
+      "id": "l2oNpw6_",
+      "createdAt": 1663647470731,
+      "updatedAt": 1741248459544
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "6U0taZTQ"
+      ],
+      "description": null,
+      "name": "send email",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import datetime\nimport sys\nimport smtplib\nimport traceback\nfrom email.mime.text import MIMEText\nfrom email.message import Message\nfrom typing import List\n\n\nEMAIL_USER = \"haiyi.mei@qq.com\"\nEMAIL_PASS = \"jdcvulsxidpnbbad\"\n\n\nclass EmailSender:\n    EMAIL_HOST = \"smtp.qq.com\"\n    EMAIL_PORT = 465\n\n    def __init__(self, user: str, password: str, receivers: List[str]):\n        self.email_user = user\n        self.email_pass = password\n        self.receivers = receivers\n\n    def make_message(self):\n        body = (\n            f\"Write email body here\\n\"\n            f\"{datetime.datetime.now().isoformat()}\"\n        )\n        message = MIMEText(body, 'plain', 'utf8')\n        message['From'] = f'NameOfSender<{self.email_user}>'\n        message['To'] = ','.join(self.receivers)\n        message['Subject'] = f\"xxxxx\"\n        return message\n\n    @staticmethod\n    def _send_email(\n        msg: Message,\n        mail_host: str,\n        mail_port: int,\n        mail_user: str,\n        mail_pass: str\n    ):\n        try:\n            with smtplib.SMTP_SSL(mail_host, mail_port) as smtp:\n                smtp.connect(mail_host, mail_port)\n                smtp.login(mail_user, mail_pass)\n                smtp.send_message(msg)\n        except Exception:\n            error_msg = f\"EMAIL SENDING FAILED!\\n{traceback.format_exc()}\"\n            print(error_msg, file=sys.stderr)\n            return False, error_msg\n        else:\n            return True, \"Mail sended!\"\n\n    def send(self):\n        msg = self.make_message()\n        self._send_email(\n            msg,\n            mail_host=self.EMAIL_HOST,\n            mail_port=self.EMAIL_PORT,\n            mail_user=self.email_user,\n            mail_pass=self.email_pass,\n        )\n\n\nemail_sender = EmailSender(\n    EMAIL_USER, EMAIL_PASS,\n    receivers=[\"yangzhitao@sensetime.com\"]\n)\nemail_sender.send()\n"
+        }
+      ],
+      "id": "nIlzsNCl",
+      "createdAt": 1663648620222,
+      "updatedAt": 1706013994317
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [],
+      "description": "Timer context",
+      "name": "step timer context",
+      "content": [
+        {
+          "label": "simple",
+          "language": "python",
+          "value": "import datetime\nfrom contextlib import contextmanager\n\n\n@contextmanager\ndef __step__(step_name: str):\n    begin = datetime.datetime.now()\n    fmt = '%H:%M:%S.%f'\n    print(f\"\\n[*][{begin.strftime(fmt)[:-4]}] {step_name} ...\")\n    yield\n    end = datetime.datetime.now()\n    cost = end - begin\n    print(\n      f\"[-][{end.strftime(fmt)[:-4]}] <{step_name.upper()}>\"\n      f\" finished in {cost.total_seconds():f}s\"\n    )\n"
+        },
+        {
+          "label": "complicated",
+          "language": "python",
+          "value": "import time\r\nfrom contextlib import contextmanager\r\n\r\n\r\n_STEP_LEVEL_ = 0\r\n_STEP_COUNT_ = 0\r\n_STEP_DIGEST_ = []\r\n\r\n\r\n@contextmanager\r\ndef __step__(step_name: str):\r\n    global _STEP_LEVEL_, _STEP_COUNT_, _STEP_DIGEST_\r\n    i = int(_STEP_COUNT_)\r\n    l = int(_STEP_LEVEL_)\r\n    d = f\">{l}\" if l else \"\"\r\n    print(f\"\\n[*{i}{d}*] {step_name} ...\")\r\n    _STEP_LEVEL_ += 1\r\n    _STEP_COUNT_ += 1\r\n    try:\r\n        ctime = time.time()\r\n        yield\r\n        cost = time.time() - ctime\r\n    finally:\r\n        _STEP_LEVEL_ -= 1\r\n    print(f\"[-{i}{d}-] <{step_name.upper()}> finished in {cost:.2f}s\")\r\n    # record run time\r\n    _STEP_DIGEST_.append((i, l, step_name, cost))\r\n\r\n\r\ndef _print_digest_():\r\n    \"\"\"Call this to print digests of former steps and clear the digests.\r\n    \"\"\"\r\n    global _STEP_DIGEST_\r\n    if not _STEP_DIGEST_:\r\n        return\r\n    _STEP_DIGEST_.sort()\r\n    messages = []\r\n    max_name_len = max(len(x[2]) for x in _STEP_DIGEST_)\r\n    for i, l, step_name, cost in _STEP_DIGEST_:\r\n        d = f\":{l}\" if l else \"\"\r\n        n_blank = max_name_len - len(step_name)\r\n        messages.append(f\"{'  '*l}[{i}{d}] {step_name}{' ' * n_blank} : {cost}\")\r\n    msg = \"\\n\\t\".join(messages)\r\n    print(\r\n        f\"\\n\\t****** steps digest ******\\n\\t{msg}\"\r\n        f\"\\n\\t**************************\\n\"\r\n    )\r\n    _STEP_DIGEST_.clear()"
+        }
+      ],
+      "id": "6YSVFfl0",
+      "createdAt": 1663654079479,
+      "updatedAt": 1745216382228
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "zU28Afd-",
+      "tagsIds": [],
+      "description": null,
+      "name": "generate secret key",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "python -c 'import secrets; print(secrets.token_hex())'"
+        }
+      ],
+      "id": "yKioG9v8",
+      "createdAt": 1663819798392,
+      "updatedAt": 1745216197794
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "YqqTEXuH"
+      ],
+      "description": "指定 GCC 版本",
+      "name": "GCC version",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "CC=gcc-9 CPP=g++-9 CXX=g++-9 LD=g++-9"
+        }
+      ],
+      "id": "h5gHPapK",
+      "createdAt": 1664348182583,
+      "updatedAt": 1740485687202
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "UVf2JpXq",
+      "tagsIds": [
+        "j4aYGuze"
+      ],
+      "description": null,
+      "name": "git clone specific tag",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "git clone --depth 1 --branch <tag_name> <repo_url>\n"
+        }
+      ],
+      "id": "4_0Siqv1",
+      "createdAt": 1667186078421,
+      "updatedAt": 1679386828587
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "jJQfpmRH"
+      ],
+      "description": "Exmpale of how to use argparse lib",
+      "name": "argparse | Example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import argparse\n\nparser = argparse.ArgumentParser()\n# value\nparser.add_argument(\"square\", type=int,\n                    help=\"display a square of a given number\")\n# store_true\nparser.add_argument(\"-v\", \"--verbose\", action=\"store_true\",\n                    help=\"increase output verbosity\")\n# choice\nparser.add_argument(\"-w\", \"--verbosity\", type=int, choices=[0, 1, 2],\n                    help=\"increase output verbosity\")\n# count\nparser.add_argument(\"-x\", \"--verbosity\", action=\"count\", default=0,\n                    help=\"increase output verbosity\")\n\nargs = parser.parse_args()\n\nanswer = args.square**2\nif args.verbosity == 2:\n\t\tprint(f\"the square of {args.square} equals {answer}\")\nelif args.verbosity == 1:\n\t\tprint(f\"{args.square}^2 == {answer}\")\nelse:\n\t\tprint(answer)\n"
+        }
+      ],
+      "id": "Zj3qbbgl",
+      "createdAt": 1672025395728,
+      "updatedAt": 1745216301187
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "KTu5WhDu",
+      "tagsIds": [
+        "qwAv090p"
+      ],
+      "description": "get the bounding box of an object",
+      "name": "bound_box",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import bpy\nimport mathutils\n\nobj = bpy.data.objects['Armature']\nfor vec in obj.bound_box:\n    # from object space to world space\n    loc = obj.matrix_world @ mathutils.Vector(vec)\n    # visualize\n    arrow = bpy.ops.object.empty_add(type='ARROWS', location=loc)\n"
+        }
+      ],
+      "id": "SC6e5SSr",
+      "createdAt": 1676342189225,
+      "updatedAt": 1676342821213
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "KTu5WhDu",
+      "tagsIds": [
+        "qwAv090p"
+      ],
+      "description": null,
+      "name": "get armature's meshes",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "arm = bpy.data.objects['Armature']\nmeshes = []\nfor obj in bpy.data.objects:\n    if (obj.type == 'MESH' and\n        arm in [m.object for m in obj.modifiers if m.type == 'ARMATURE']\n        ):\n        # Do stuff\n        meshes.append(obj)\n"
+        }
+      ],
+      "id": "Y12qp4df",
+      "createdAt": 1676342283883,
+      "updatedAt": 1676342412656
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "KTu5WhDu",
+      "tagsIds": [
+        "qwAv090p"
+      ],
+      "description": null,
+      "name": "select & deselect",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import bpy\n\n###############\n# Deselect\n###############\n# blender >= 2.8\nfor obj in bpy.context.selected_objects:\n\t\tobj.select_set(False)\n\n# or\nbpy.ops.object.select_all(action='DESELECT')\n"
+        }
+      ],
+      "id": "nSTU-FiJ",
+      "createdAt": 1677138961627,
+      "updatedAt": 1677139342175
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "KTu5WhDu",
+      "tagsIds": [
+        "qwAv090p"
+      ],
+      "description": null,
+      "name": "copy pose left2right",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import bpy\n\narm = bpy.data.objects[\"Take_010_skeleton_0_OK\"]\nfor pb in arm.pose.bones:\n    if \"Left\" not in pb.name:\n        continue\n    idx = pb.name.index(\"Left\")\n    new_name = f\"{pb.name[:idx]}Right{pb.name[idx+4:]}\"\n    assert new_name in arm.pose.bones, f\"{new_name}\"\n    arm.pose.bones[new_name].rotation_quaternion = pb.rotation_quaternion\n    \n    pb.keyframes_insert(\"rotation_quaternion\")"
+        }
+      ],
+      "id": "YEFnwDDO",
+      "createdAt": 1679030686553,
+      "updatedAt": 1679030873428
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "KTu5WhDu",
+      "tagsIds": [
+        "qwAv090p"
+      ],
+      "description": null,
+      "name": "Get frames scope",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import math\nimport bpy\n\n\ndef get_keys(obj_list):\n    \"\"\"get keyframes of object list\"\"\"\n    keys = set()\n    for obj in obj_list:\n        anim = obj.animation_data\n        if anim is not None and anim.action is not None:\n            for fcu in anim.action.fcurves:\n                for keyframe in fcu.keyframe_points:\n                    x, y = keyframe.co\n                    if x not in keys:\n                        keys.add((math.ceil(x)))\n    return list(keys)\n\n\ndef get_key_scope(obj_list):\n    min_key = None\n    max_key = None\n\n    for obj in obj_list:\n        if obj.animation_data:\n            # loop through all fcurves\n            for fcurve in obj.animation_data.action.fcurves:\n                # loop through all keyframe points\n                for point in fcurve.keyframe_points:\n                    # get frame number of point\n                    frame = point.co.x\n                    # update min key and max key variables\n                    if min_key is None or frame < min_key:\n                        min_key = frame\n                    if max_key is None or frame > max_key:\n                        max_key = frame\n    return min_key, max_key\n"
+        }
+      ],
+      "id": "SFgyWF50",
+      "createdAt": 1679286718466,
+      "updatedAt": 1679296936281
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "El10Ht_I",
+      "tagsIds": [
+        "cFl0ttHK"
+      ],
+      "description": null,
+      "name": "ffmpeg png to mp4",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4\nffmpeg -framerate 30 -i %04d.png -c:v libx264 -pix_fmt yuv420p output.mp4\n\n# With frame numbers\n# * use `fc-list` to find an available font file\nffmpeg -framerate 30 -i img%03d.png -vf \"drawtext=fontfile=arial.ttf: text='%{frame_num}': start_number=1: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: fontsize=30: box=1: boxcolor=black@0.5: boxborderw=5\" -c:v libx264 -pix_fmt yuv420p output.mp4"
+        }
+      ],
+      "id": "OHb5TaBt",
+      "createdAt": 1679386809278,
+      "updatedAt": 1732170161170
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "-ioqNk6R",
+      "tagsIds": [
+        "OB2CKMjY"
+      ],
+      "description": "A example of `pyproject.toml`",
+      "name": "pyproject.toml | Example",
+      "content": [
+        {
+          "label": "(legacy) ruff + black + isort",
+          "language": "toml",
+          "value": "[build-system]\nrequires = ['setuptools>=45']\nbuild-backend = \"setuptools.build_meta\"\n\n[tool.setuptools.packages.find]\ninclude = ['app', 'app.*']\nexclude = ['tests', 'examples']\n\n[project]\nname = \"comfy-umbrella\"\nversion = \"0.0.1\"\ndescription = \"Comfy-Umbrella: manage multiple ComfyUI applications, dispatching requests to the right one.\"\nreadme = \"README.md\"\nrequires-python = \">=3.9, <3.12\"\nlicense = { text = 'Apache License 2.0' }\nclassifiers = [\n    \"Operating System :: Microsoft :: Windows\",\n    \"Operating System :: Unix\",\n    \"Operating System :: MacOS\",\n    \"Operating System :: POSIX :: Linux\",\n    \"Programming Language :: Python :: 3.9\",\n    \"Programming Language :: Python :: 3.10\",\n    \"Programming Language :: Python :: 3.11\",\n    'License :: OSI Approved :: Apache Software License',\n]\ndynamic = [\"dependencies\", \"optional-dependencies\"]\n\n[tool.setuptools.dynamic]\ndependencies = { file = [\"requirements/runtime.txt\"] }\noptional-dependencies.dev = { file = \"requirements/dev.txt\" }\n\n[tool.black]\nline-length = 120\ntarget-version = ['py39', 'py310', 'py311', 'py312']\ninclude = '\\.pyi?$'\nskip-string-normalization = true\n\n[tool.ruff]\nline-length = 120\n# Always autofix, but never try to fix:\n# - `F401` (unused imports)\n# - `F841` (unused variables)\nfix = true\nunfixable = [\"F401\", \"F841\"]\n# Assume the minimum version is Python 3.8\ntarget-version = 'py38'\n\n    [tool.ruff.format]\n    quote-style = \"preserve\"\n\n    [tool.ruff.per-file-ignores]\n    \"examples/*\" = ['E402']\n    \"tests/*\" = ['E402']\n\n    [tool.ruff.lint.pyupgrade]\n    # Preserve types, even if a file imports `from __future__ import annotations`.\n    # Essential for Pydantic in python<3.9.\n    # See: https://docs.astral.sh/ruff/settings/#lint_pyupgrade_keep-runtime-typing\n    keep-runtime-typing = true\n\n[tool.isort]\nline_length = 120\nprofile = \"black\"\nsrc_paths = [\".\"]\n\n[tool.mypy]\nstrict = true\nexclude = [\"venv\", \".venv\", \"tests\", \"alembic\"]\n"
+        },
+        {
+          "label": "ruff only",
+          "language": "toml",
+          "value": "[build-system]\nrequires = [\"setuptools >= 61.0\"]\nbuild-backend = \"setuptools.build_meta\"\n\n[tool.setuptools.packages.find]\nwhere = [\".\"]\ninclude = [\"*\"]\nexclude = []\nnamespaces = false\n\n[project]\nname = \"AnimoXtend\"\nversion = \"0.1.1\"\ndescription = \"Extension for Animo, empowering your animation creativity.\"\nreadme = \"README.md\"\nauthors = [\n    { name = \"YANG ZHITAO\", email = \"yangzhtiao@sensetime.com\" },\n]\nrequires-python = \">=3.10, <3.13\"\nlicense = { text = 'Apache License 2.0' }\nclassifiers = [\n    \"Operating System :: Microsoft :: Windows\",\n    \"Operating System :: Unix\",\n    \"Operating System :: MacOS\",\n    \"Operating System :: POSIX :: Linux\",\n    \"Development Status :: 4 - Beta\",\n    \"Programming Language :: Python :: 3.10\",\n    \"Programming Language :: Python :: 3.11\",\n    \"Programming Language :: Python :: 3.12\",\n    \"License :: OSI Approved :: Apache Software License\",\n]\nkeywords = []\ndependencies = [\n    \"requests\",\n]\n\n[project.optional-dependencies]\ndev = [\"ruff\", \"pre-commit\", \"git-cliff>=2.6\"]\n\n[tool.ruff]\nline-length = 120\n# Assume the minimum version is Python 3.10\ntarget-version = 'py310'\nfix = true\n\n[tool.ruff.format]\nquote-style = \"preserve\"\n\n[tool.ruff.lint]\nselect = [\n    \"E\",   # pycodestyle\n    \"F\",   # Pyflakes\n    \"B\",   # flake8-bugbear\n    \"TC\",  # flake8-type-checking\n    \"I\",   # isort\n    \"T20\", # flake8-print\n    \"N\",   # pep8-naming\n    # \"TID\", # flake8-tidy-imports\n    # \"UP\", # pyupgrade\n    # \"SIM\",    # flake8-simplify\n]\nunfixable = [\n    \"F401\", # unused imports\n    \"F841\", # unused variables\n]\n\n[tool.ruff.lint.per-file-ignores]\n# `E402` (import violations)\n\"__init__.py\" = [\"E402\"]\n\"examples/*\" = [\"E402\"]\n\"tests/*\" = [\"E402\"]\n\n[tool.ruff.lint.isort]\nknown-first-party = []\nknown-third-party = [\"bpy\"]\n\n[tool.ruff.lint.pep8-naming]\n# Allow Pydantic's `@validator` decorator to trigger class method treatment.\nclassmethod-decorators = [\"classmethod\", \"pydantic.validator\"]\n"
+        },
+        {
+          "label": "uv",
+          "language": "toml",
+          "value": "# Run `uv init` first. Then modify `pyproject.toml`.\n[project]\nname = \"zoetriton\"\nversion = \"0.1.0\"\ndescription = \"Add your description here\"\nreadme = \"README.md\"\nrequires-python = \">=3.11\"\ndependencies = [\n  \"einops>=0.8.1\",\n  \"loguru>=0.7.3\",\n  \"opencv-python>=4.11.0.86\",\n  \"pillow>=11.0.0\",\n  \"pip>=25.0.1\",\n  \"rich>=14.0.0\",\n  \"safetensors>=0.5.3\",\n  \"torch==2.5.1\",\n  \"torchaudio==2.5.1\",\n  \"torchvision==0.20.1\",\n  \"tqdm>=4.67.1\",\n  \"transformers>=4.51.3\",\n  \"tritonclient[all]>=2.56.0\",\n  \"typer>=0.15.2\",\n]\n\n[dependency-groups]\ndev = [\"ipykernel>=6.29.5\", \"ipython>=9.1.0\", \"pytest>=8.3.5\", \"pyyaml>=6.0.2\", \"ruff>=0.11.6\"]\n\n# UV configurations\n[tool.uv.sources]\ntorch = { index = \"pytorch-cu124\" }\ntorchvision = { index = \"pytorch-cu124\" }\ntorchaudio = { index = \"pytorch-cu124\" }\n\n[tool.uv]\nindex = [\n  { name = \"tsinghua\", url = \"https://pypi.tuna.tsinghua.edu.cn/simple\", default = true },\n  { name = \"pytorch-cu124\", url = \"https://download.pytorch.org/whl/cu124\", explicit = true },\n  { name = \"pytorch-cu117\", url = \"https://download.pytorch.org/whl/cu117\", explicit = true },\n]\n\n# Configurate pyright to reduce indexing time\n[tool.pyright]\ninclude = [\"zoetriton/**/*.py\"]\nexclude = [\n  \"**/ComfyUI/**\",\n  \"**/.venv.*/**\",\n  \"**/model_repository/**\",\n  \"tests/**\",\n]\n"
+        }
+      ],
+      "id": "9HBgHLbD",
+      "createdAt": 1720511668324,
+      "updatedAt": 1747563193988
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "EyBB2RtS",
+      "tagsIds": [
+        "xN9Ypy8o",
+        "jJQfpmRH"
+      ],
+      "description": "An example of `justfile`",
+      "name": "justfile | Example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "# configs\nset shell := [\"zsh\", \"-uc\"]\nset windows-shell := [\"powershell.exe\", \"-NoLogo\", \"-Command\"]\n\n# define constants\nopenapi_json := \"./codegen/animohub.openapi.json\"\npackage_json := \"package.json\"\n\ndefault:\n  # List all available commands:\n  just --list --unsorted\n\nupdate SOURCE=\"\":\n\t# use `@` to suppress prints of the command\n  @echo \"🚀 --> updating\"\n  pwsh ./codegen/update_json.ps1 \"{{openapi_json}}\" \"{{SOURCE}}\"\n  @echo \"\"\n  git status \"{{openapi_json}}\"\n\nbuild:\n  @echo \"🚀 --> building\"\n  pnpm run build\n\nrelease VERSION=\"patch\":\n  git add .\n  git commit -m \"update apis\"\n\n  @echo \"🚀 --> Update {{VERSION}} version in {{package_json}}\"\n  pnpm version {{VERSION}} # patch, minor, major\n\n  @echo \"🚀 --> push with tags\"\n  git push origin\n  git push origin --tags\n"
+        }
+      ],
+      "id": "vqS4Ln8W",
+      "createdAt": 1720518561206,
+      "updatedAt": 1745216438526
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "7n_FFJOK",
+      "tagsIds": [
+        "XnUwR9Dh"
+      ],
+      "description": "转发全部请求到另一个host，含 websocket",
+      "name": "nginx | 转发全部请求",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "nginx",
+          "value": "map $http_upgrade $connection_upgrade {\n    default upgrade;\n    ''      close;\n}\n\n# Define upstream server\nupstream backend27 {\n    server 10.121.4.11:8027;\n}\n\n# Server block for backends\nserver {\n    listen 8727;\n\n    # Proxy all requests to the upstream server\n    location / {\n        proxy_pass http://backend27;\n\n        client_max_body_size 1024m;\n        client_body_buffer_size 2048m;\n\n        # Enable WebSocket support\n        proxy_http_version 1.1;\n        proxy_set_header Upgrade $http_upgrade;\n        proxy_set_header Connection \"upgrade\";\n\n        proxy_set_header Host $host;\n        proxy_set_header X-Real-IP $remote_addr;\n        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n        proxy_buffering  off;\n    }\n}\n"
+        }
+      ],
+      "id": "roANEw7k",
+      "createdAt": 1720595498352,
+      "updatedAt": 1732170082344
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "YqqTEXuH"
+      ],
+      "description": "设置 echo 的颜色变量",
+      "name": "shell colors",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "#!/bin/bash\n\n#### define-colors ####\n# Check if colors are supported\nif [ -t 1 ] && [ -n \"$(tput colors)\" ] && [ \"$(tput colors)\" -ge 8 ]; then\n    R_='\\033[0;31m' # red\n    G_='\\033[0;32m' # green\n    Y_='\\033[0;33m' # yellow\n    B_='\\033[0;34m' # blue\n    M_='\\033[0;35m' # magenta\n    C_='\\033[0;36m' # cyan\n    W_='\\033[0;37m' # white\n    NC_='\\033[0m'   # no color\nelse\n    R_=''\n    G_=''\n    Y_=''\n    B_=''\n    M_=''\n    C_=''\n    W_=''\n    NC_=''\nfi\n#### end-define-colors ####\n\n# Function to print colored text\nprint_color() {\n    echo -e \"${1}${2}${NC_}\"\n}\n\n# Display colors\necho \"Red text: $(print_color $R_ \"This is red text\")\"\necho \"Green text: $(print_color $G_ \"This is green text\")\"\necho \"Yellow text: $(print_color $Y_ \"This is yellow text\")\"\necho \"Blue text: $(print_color $B_ \"This is blue text\")\"\necho \"Magenta text: $(print_color $M_ \"This is magenta text\")\"\necho \"Cyan text: $(print_color $C_ \"This is cyan text\")\"\necho \"White text: $(print_color $WHITE \"This is white text\")\"\necho \"No Color text: $(print_color $NC \"This is default text\")\"\n"
+        }
+      ],
+      "id": "UI6Gt7pZ",
+      "createdAt": 1733403638419,
+      "updatedAt": 1740487358603
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "6U0taZTQ"
+      ],
+      "description": null,
+      "name": "singleton metaclass",
+      "content": [
+        {
+          "label": "Singleton",
+          "language": "python",
+          "value": "\"\"\"Singleton metaclass implementation.\n\nThis module provides a Singleton metaclass that ensures only one instance\nof a class is created. All subsequent instantiations return the same instance.\n\nExample:\n```python\nclass MyClass(metaclass=Singleton):\n    pass\n\n# These will return the same instance\na = MyClass()\nb = MyClass()\nassert a is b   # This will pass\n```\n\"\"\"\n\nfrom typing import Any, Dict, Type\n\n\nclass Singleton(type):\n    \"\"\"Metaclass that ensures only one instance of a class exists.\n\n    The Singleton metaclass keeps track of all instances of classes using this\n    metaclass in a private dictionary. When a new instance is requested, it\n    either returns an existing instance or creates a new one if none exists.\n    \"\"\"\n\n    _instances: Dict[Type, Any] = {}\n\n    def __call__(cls, *args: Any, **kwargs: Any) -> Any:\n        \"\"\"Return existing instance if it exists, otherwise create new instance.\n\n        Args:\n            *args: Variable length argument list passed to class constructor\n            **kwargs: Arbitrary keyword arguments passed to class constructor\n\n        Returns:\n            The single instance of the class\n        \"\"\"\n        if cls not in cls._instances:\n            cls._instances[cls] = super().__call__(*args, **kwargs)\n        return cls._instances[cls]\n"
+        },
+        {
+          "label": "Singleton简化",
+          "language": "python",
+          "value": "\"\"\"Singleton metaclass implementation.\n\nThis module provides a Singleton metaclass that ensures only one instance\nof a class is created. All subsequent instantiations return the same instance.\n\nExample:\n```python\nclass MyClass(metaclass=Singleton):\n    pass\n\n\n# These will return the same instance\na = MyClass()\nb = MyClass()\nassert a is b  # This will pass\n```\n\"\"\"\n\n\nclass Singleton(type):\n    \"\"\"A metaclass that implements the Singleton pattern.\n\n    This metaclass ensures that only one instance of a class exists at any time.\n    The first time a class is instantiated, it creates a new instance and stores it.\n    Subsequent instantiations return the same instance.\n\n    Example:\n        class MyClass(metaclass=Singleton):\n            pass\n\n        a = MyClass()  # Creates new instance\n        b = MyClass()  # Returns same instance as a\n    \"\"\"\n\n    def __init__(self, *args, **kwargs):\n        self.__instance = None\n        super().__init__(*args, **kwargs)\n\n    def __call__(self, *args, **kwargs):\n        \"\"\"Create or return the singleton instance of the class.\n\n        Args:\n            *args: Positional arguments to pass to the class constructor\n            **kwargs: Keyword arguments to pass to the class constructor\n\n        Returns:\n            T: The singleton instance of the class\n        \"\"\"\n        if self.__instance is None:\n            self.__instance = super().__call__(*args, **kwargs)\n            return self.__instance\n        else:\n            return self.__instance\n"
+        }
+      ],
+      "id": "KrqyGsN4",
+      "createdAt": 1733403843668,
+      "updatedAt": 1749643287852
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "-ioqNk6R",
+      "tagsIds": [],
+      "description": null,
+      "name": "ruff.toml | Example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "toml",
+          "value": "line-length = 120\n# Assume the minimum Python version\ntarget-version = 'py312'\nfix = true\nexclude = [\"*.pyi\", \"*/site-packages\"]\n\n############################\n# lint rules\n############################\n[lint]\nselect = [\n  \"E\",      # pycodestyle: Error\n  \"W\",      # pycodestyle: Warning\n  \"F\",      # Pyflakes\n  \"PLE\",    # pylint: Error\n  \"B\",      # flake8-bugbear\n  \"TC\",     # flake8-type-checking\n  \"I\",      # isort\n  \"T20\",    # flake8-print\n  \"C4\",     # flake8-comprehensions\n  \"UP\",     # pyupgrade\n  \"ARG001\", # unused arguments in functions\n  \"G\",      # flake8-logging-format rules\n  \"LOG\",    # flake8-logging rules, most of them autofixable\n  \"TID\",    # flake8-tidy-imports\n  # \"ICN\", # flake8-import-conventions\n  # \"PERF\", # Perflint\n  # \"RUF\",  # Ruff-specific rules\n  # \"SIM\",  # flake8-simplify\n  # Per rule enables\n  \"ISC001\", # Implicitly concatenated string literals on one line\n  \"TRY002\", # Prohibit use of `raise Exception`, use specific exceptions instead.\n  \"TRY400\", # Use `logging.exception` instead of `logging.error`\n  \"RET505\", # Unnecessary {branch} after return statement\n  \"RET506\", # Unnecessary {branch} after raise statement\n  \"RET507\", # Unnecessary {branch} after continue statement\n  \"RET508\", # Unnecessary {branch} after break statement\n  \"SIM105\", # Use contextlib.suppress({exception}) instead of try-except-pass\n  \"SIM300\", # Checks for conditions that position a constant on the left-hand side of the comparison operator, rather than the right-hand side.\n  \"RUF005\", # collection-literal-concatenation\n  \"RUF006\", # Checks for asyncio dangling task\n  \"RUF013\", # implicit-optional\n  \"RUF015\", # Checks for unnecessary iterable allocation for first element\n  \"RUF019\", # Checks for unnecessary key check\n  \"RUF021\", # parenthesize-chained-operators\n  \"RUF022\", # unsorted-dunder-all\n  \"RUF023\", # unsorted-dunder-slots\n  \"RUF051\", # if-key-in-dict-del\n  \"RUF100\", # unused-noqa\n  \"RUF101\", # redirected-noqa\n]\nunfixable = [\n  \"F401\", # unused imports\n  \"F841\", # unused variables\n]\nignore = [\n  \"B008\", # do not perform function calls in argument defaults\n  \"E501\", # Formatted code may exceed the line length, leading to line-too-long (E501) errors.\n]\n\n[lint.per-file-ignores]\n# `E402` (import violations)\n\"__init__.py\" = [\"E402\"]\n\"examples/*\" = [\"E402\"]\n\"tests/*\" = [\"E402\"]\n\n[lint.isort]\ncombine-as-imports = true\nknown-third-party = [\"bpy\"]\nknown-first-party = []\n\n[lint.flake8-tidy-imports.banned-api]\n# Use root logger by a mistake / IDE autosuggestion\n# If for some reason root logger required it could obtained by `logging.getLogger(\"root\")`\n# \"logging.debug\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.info\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.warning\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.error\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.exception\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.fatal\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.critical\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n# \"logging.log\".msg = \"Instantiate new `logger = logging.getLogger(__name__)` and use it instead of root logger\"\n\"logging.debug\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.info\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.warning\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.error\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.exception\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.fatal\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.critical\".msg = \"Use `from loguru import logger` instead of root logger\"\n\"logging.log\".msg = \"Use `from loguru import logger` instead of root logger\"\n\n############################\n# format rules\n############################\n[format]\nquote-style = \"preserve\"\ndocstring-code-format = true\n"
+        }
+      ],
+      "id": "8DULwz-I",
+      "createdAt": 1735111820056,
+      "updatedAt": 1749202363132
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "NwKHla-1",
+      "tagsIds": [],
+      "description": null,
+      "name": "ssh开启隧道转发",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "ssh -g -N -L 31999:10.119.25.77:80 fjscms\n\n# -L: 表示本地端口转发，指定本地 31999 作为转发端口，将远程主机的端口(10.119.25.77:80)映射为本地端口\n# -g: 允许外界主机连接本地转发端口 (31999)\n# -N: 连接后不执行命令（否则隧道只在命令执行期间存在，命令完成后就会退出）\n# -f: 以后台方式运行\n# fjscms: 表示以 fjscms 作为隧道访问 10.119.25.77:80\n"
+        }
+      ],
+      "id": "vSvt0s0U",
+      "createdAt": 1739859076770,
+      "updatedAt": 1739859690084
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "YqqTEXuH"
+      ],
+      "description": "用指定的 uid/gid/用户名/组名/HOME目录位置，创建用户和用户组。",
+      "name": "create user & group",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "#!/bin/bash\nUSERNAME=yangzhitao1\nHOME_DIR=/mnt/aigc/users/yangzhitao1\nUID=1007\nGID=1007\nGROUPNAME=\"$USERNAME\"\n\nif getent passwd $UID &> /dev/null; then\n  echo -e \"Existing user uid=$UID!\"\n  exit -1\nfi\nif id \"$USERNAME\" &> /dev/null; then\n  echo -e \"Existing user \\\"$USERNAME\\\"!\"\n  exit -1\nfi\nif getent group $GID &> /dev/null; then\n  echo -e \"Existing group gid=$GID!\"\n  exit -2\nfi\nif getent group \"$GROUPNAME\" &> /dev/null; then\n  echo -e \"Existing group \\\"$GROUPNAME\\\"!\"\n  exit -2\nfi\n\nset -e\nset -x\n\ngroupadd -g $GID \"$GROUPNAME\"\nuseradd -u $UID -g \"$GROUPNAME\" -d \"$HOME_DIR\" -m \"$USERNAME\"\n"
+        }
+      ],
+      "id": "nfOUt5qL",
+      "createdAt": 1740484998559,
+      "updatedAt": 1740485669169
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "YqqTEXuH"
+      ],
+      "description": "bash 脚本文件中，获取脚本自身所在的目录路径",
+      "name": "script get its directory path",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "SCRIPT_DIR=\"$(cd \"$(dirname \"${BASH_SOURCE[0]}\")\" && pwd)\""
+        }
+      ],
+      "id": "zj6Ab_SN",
+      "createdAt": 1740554098697,
+      "updatedAt": 1740554246974
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "dcS7Nw8E",
+      "tagsIds": [],
+      "description": null,
+      "name": "postgres docker-compose.yml",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "yaml",
+          "value": "# Config the following environment variables\n# + DATABASE__PORT\n# + DATABASE__PASSWORD\n# + DATABASE__DB\n\nversion: '3'\n\n\nservices:\n  postgres:\n    image: postgres:16\n    ports:\n      - ${DATABASE__PORT-5432}:5432\n    environment:\n      POSTGRES_USER: ${DATABASE__USERNAME:-postgres}\n      POSTGRES_PASSWORD: ${DATABASE__PASSWORD:-postgres}\n      POSTGRES_DB: ${DATABASE__DB}\n    volumes:\n      - pg-data-volume:/var/lib/postgresql/data\n    healthcheck:\n      test: [ \"CMD\", \"pg_isready\", \"-U\", \"${DATABASE__USERNAME}\", \"-d\", \"${DATABASE__DB}\" ]\n      interval: 5s\n      retries: 5\n    restart: unless-stopped\n\n\nvolumes:\n  pg-data-volume:\n    name: postgres-data-volume\n    driver: local\n    driver_opts:\n      type: none\n      device: /path/to/dir\t\t# path to mount PGDATA folder\n      o: bind\n"
+        }
+      ],
+      "id": "aPidQDo6",
+      "createdAt": 1740575179267,
+      "updatedAt": 1740575703855
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "3FgM-9vH",
+      "tagsIds": [
+        "E9GSToKj"
+      ],
+      "description": null,
+      "name": "Prettier 配置",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "json5",
+          "value": "{\n  $schema: 'https://json.schemastore.org/prettierrc',\n  // 不尾随分号\n  semi: false,\n  // 使用双引号\n  singleQuote: true,\n  // 一行最多 xx 字符\n  printWidth: 100,\n  // 对象大括号内两边是否加空格 { a:0 }\n  bracketSpacing: true,\n  // 单个参数的箭头函数加括号 (x) => x\n  arrowParens: 'always',\n  bracketSameLine: false,\n  endOfLine: 'lf',\n  jsxBracketSameLine: false,\n  jsxSingleQuote: false,\n  // 使用 2 个空格缩进\n  tabWidth: 2,\n  // 多行逗号分割的语法中，最后一行加逗号\n  trailingComma: 'all',\n  // 不使用缩进符，而使用空格\n  useTabs: false,\n  vueIndentScriptAndStyle: false,\n  embeddedLanguageFormatting: 'off',\n}\n"
+        }
+      ],
+      "id": "18Grxmk3",
+      "createdAt": 1740968541316,
+      "updatedAt": 1740969726235
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "3FgM-9vH",
+      "tagsIds": [
+        "E9GSToKj"
+      ],
+      "description": null,
+      "name": ".editorconfig | 前端配置",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ini",
+          "value": "# indent_style    设置缩进为 tab 或 space\n# tab_width       设置 tab 所占列数。默认是indent_size\n# indent_size     设置缩进所占列数，如果 indent_style 为 tab，则以 tab_width 值作为缩进宽度\n# end_of_line     设置换行符，值为lf、cr和crlf\n# charset         设置编码，值为latin1、utf-8、utf-8-bom、utf-16be和utf-16le，不建议使用utf-8-bom\n# trim_trailing_whitespace  设为 true 表示会去除行尾的空白字符\n# insert_final_newline      设为 true 表示使文件以一个空白行结尾\n# root        　　　表示是最顶层的配置文件，设为 true 时，停止向上查找\n[*]\ncharset = utf-8\nend_of_line = lf\nindent_style = space\n\n[*.{js,jsx,mjs,cjs,ts,tsx,mts,cts,vue,css,scss,sass,less,styl}]\ncharset = utf-8\nindent_size = 2\nindent_style = space\ninsert_final_newline = true\ntrim_trailing_whitespace = true\n\nend_of_line = lf\nmax_line_length = 100\n\n[*.{md}]\nindent_size = 2\nindent_style = space\ninsert_final_newline = true\ntrim_trailing_whitespace = true\n\nend_of_line = lf\nmax_line_length = 100\n"
+        }
+      ],
+      "id": "ODisyqhu",
+      "createdAt": 1740969038698,
+      "updatedAt": 1749023020933
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "UVf2JpXq",
+      "tagsIds": [
+        "j4aYGuze"
+      ],
+      "description": null,
+      "name": ".gitattributes | template",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "ini",
+          "value": "* text=auto eol=lf\n\n# python\n*.py text eol=lf encoding=utf-8\n\n# frontend codes\n*.{js,ts,vue} text eol=lf encoding=utf-8\n*.{css,scss,sass} text eol=lf encoding=utf-8\n*.html text eol=lf encoding=utf-8\n\n# scripts\n*.sh text eol=lf encoding=utf-8\n*.{ps1,bat} text eol=crlf\n\n# config\n*.{yml,yaml} text eol=lf encoding=utf-8\n*.toml text eol=lf encoding=utf-8\n*.json text eol=lf encoding=utf-8\n\n# text files\n*.{md,txt} text eol=lf encoding=utf-8\n\n# images\n*.{png,jpg,jpeg,gif,ico,tiff,bmp} binary\n\n# data\n*.npz binary\n"
+        }
+      ],
+      "id": "wFPz8Pdb",
+      "createdAt": 1740986292630,
+      "updatedAt": 1747310902621
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cJfyk-Yj",
+      "tagsIds": [
+        "LUCkjbM8"
+      ],
+      "description": "config.py\n\n`pip install pydantic pydantic-settings`",
+      "name": "pydantic settings",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "# config.py\nfrom pathlib import Path\nfrom urllib.parse import quote_plus\n\nfrom pydantic import BaseModel, Field\nfrom pydantic.types import SecretStr\nfrom pydantic_settings import BaseSettings, SettingsConfigDict\n\nROOT_DIR = Path(__file__).absolute().parents[1]\n\n\nclass DatabaseConfig(BaseModel):\n    POSTGRES_HOST: str = \"127.0.0.1\"\n    POSTGRES_PORT: int = 5432\n    POSTGRES_USERNAME: str\n    POSTGRES_PASSWORD: SecretStr\n\n    @property\n    def POSTGRES_DATABASE_URI(self) -> str:\n        return (\n            \"postgresql+psycopg2://\"\n            + f\"{self.POSTGRES_USERNAME}:{quote_plus(self.POSTGRES_PASSWORD.get_secret_value())}@\"\n            + f\"{self.POSTGRES_HOST}:{self.POSTGRES_PORT}\"\n        )\n\n\nclass Settings(BaseSettings):\n    model_config = SettingsConfigDict(\n        env_file=\".env\",\n        env_file_encoding=\"utf-8\",\n        env_nested_delimiter=\"__\",\n        extra=\"forbid\",\n        validate_default=True,\n        validate_assignment=True,\n    )\n\n    APP_TITLE: str = \"Vigen Data Statistics\"\n    APP_PORT: int = 8899\n\n    DEBUG: bool = False\n\n    DB_CONFIG: DatabaseConfig = Field(...)  # nested config\n\n\nconfig = Settings()\n"
+        }
+      ],
+      "id": "Rl6drEnI",
+      "createdAt": 1741164284171,
+      "updatedAt": 1741326513759
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "-ioqNk6R",
+      "tagsIds": [],
+      "description": null,
+      "name": ".editorconfig | python 项目配置",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "# indent_style    设置缩进为 tab 或 space\n# tab_width       设置 tab 所占列数。默认是indent_size\n# indent_size     设置缩进所占列数，如果 indent_style 为 tab，则以 tab_width 值作为缩进宽度\n# end_of_line     设置换行符，值为lf、cr和crlf\n# charset         设置编码，值为latin1、utf-8、utf-8-bom、utf-16be和utf-16le，不建议使用utf-8-bom\n# trim_trailing_whitespace  设为 true 表示会去除行尾的空白字符\n# insert_final_newline      设为 true 表示使文件以一个空白行结尾\n# root        　　　表示是最顶层的配置文件，设为 true 时，停止向上查找\n[*]\ncharset = utf-8\nend_of_line = lf\nindent_style = space\ntrim_trailing_whitespace = true\n\n[*.py]\nindent_size = 4\ninsert_final_newline = true\n\n# max_line_length = 79  # preferred to config in ruff.toml\n\n[*.{toml,yaml,yml}]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100\n\n[*.{md}]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100"
+        }
+      ],
+      "id": "ltFABh7P",
+      "createdAt": 1741165726098,
+      "updatedAt": 1749023008743
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "-ioqNk6R",
+      "tagsIds": [],
+      "description": null,
+      "name": "uv.toml | Example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "toml",
+          "value": "index = [\n  { name = \"tsinghua\", url = \"https://pypi.tuna.tsinghua.edu.cn/simple\", default = true },\n  { name = \"pytorch-cu124\", url = \"https://download.pytorch.org/whl/cu124\", explicit = true },\n]\n\n[sources]\ntorch = { index = \"pytorch-cu124\" }\ntorchvision = { index = \"pytorch-cu124\" }\ntorchaudio = { index = \"pytorch-cu124\" }\n"
+        }
+      ],
+      "id": "ObXtpL6K",
+      "createdAt": 1745216530499,
+      "updatedAt": 1745219353802
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "-ioqNk6R",
+      "tagsIds": [],
+      "description": null,
+      "name": "pyrightconfig.json | Example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "json",
+          "value": "{\n    \"exclude\": [\n        \"**/.history\",\n        \"**/.git\",\n        \"**/node_modules\",\n        \"**/__pycache__\",\n        \"**/logs\"\n    ]\n}\n"
+        }
+      ],
+      "id": "KqDW4xBn",
+      "createdAt": 1747119234364,
+      "updatedAt": 1747221603930
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [],
+      "description": null,
+      "name": "rate_limiter 装饰器",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "def rate_limiter(interval: int | float):\n    \"\"\"Rate limiter decorator that enforces a minimum time between function calls.\n\n    Args:\n        interval: The minimum number of seconds between function calls.\n    \"\"\"\n    last_call_time: list[float] = [0]  # Using list to make it mutable in the inner function\n\n    def decorator(func: Callable) -> Callable:\n        @wraps(func)\n        def wrapper(*args, **kwargs):\n            current_time = time.time()\n            time_since_last_call = current_time - last_call_time[0]\n            if time_since_last_call < interval:\n                sleep_time = interval - time_since_last_call\n                # logger.debug(f\"Rate limit reached. Sleeping for {sleep_time:.2f} seconds\")\n                time.sleep(sleep_time)\n\n            last_call_time[0] = time.time()\n            return func(*args, **kwargs)\n\n        return wrapper\n\n    return decorator\n"
+        }
+      ],
+      "id": "5ew7tITb",
+      "createdAt": 1747212162844,
+      "updatedAt": 1747212214855
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cJfyk-Yj",
+      "tagsIds": [
+        "LUCkjbM8"
+      ],
+      "description": null,
+      "name": "自定义的 pydantic types",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "from pathlib import Path\nfrom pydantic import AfterValidator\n\n\ndef _is_file(v: Path) -> Path:\n    if not v.is_file():\n        raise ValueError(f\"File {v} does not exist.\")\n    return v\n\n\ndef _is_dir(v: Path) -> Path:\n    if not v.is_dir():\n        raise ValueError(f\"Directory {v} does not exist.\")\n    return v\n\n\nExpandedPath = Annotated[Path, AfterValidator(lambda v: v.expanduser())]\nExpandedFilePath = Annotated[ExpanedPath, AfterValidator(_is_file)]\nExpandedDirectoryPath = Annotated[ExpanedPath, AfterValidator(_is_dir)]\n"
+        }
+      ],
+      "id": "2i8HhKNX",
+      "createdAt": 1747383126392,
+      "updatedAt": 1747383600230
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "cJfyk-Yj",
+      "tagsIds": [
+        "LUCkjbM8"
+      ],
+      "description": "详细说明可参考我的笔记:\nhttp://notes.yangzhitao.top/编程开发-Programming/Python/Pydantic/用pydantic-settings解析命令行参数#用-pydantic-settings-解析命令行参数",
+      "name": "pydantic settings for CLI",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import sys\nimport warnings\nfrom pathlib import Path\nfrom typing import Annotated, TypeVar\n\nfrom pydantic import AfterValidator, Field, computed_field\nfrom pydantic_settings import (\n    BaseSettings as PydanticBaseSettings,\n    CliApp,\n    JsonConfigSettingsSource,\n    PydanticBaseSettingsSource,\n    SettingsConfigDict,\n    TomlConfigSettingsSource,\n    YamlConfigSettingsSource,\n)\n\n__all__ = [\n    \"SettingsBase\",\n    \"default_settings_config_dict\",\n    \"parse_cli_args\",\n]\n\nTSettings = TypeVar(\"TSettings\", bound=\"SettingsBase\")\n\n\ndef _is_supported_config_file(paths: list[Path]) -> list[Path]:\n    supported_config_paths = []\n    for p in paths:\n        if not p.exists():\n            warnings.warn(f'Config file \"{p}\" does not exist. Ignored.', stacklevel=2)\n            continue\n        if not p.is_file():\n            warnings.warn(f'Config file \"{p}\" is not a file. Ignored.', stacklevel=2)\n            continue\n        if not p.suffix.lower() not in (\".toml\", \".yaml\", \".yml\", \".json\"):\n            warnings.warn(f'Not supported config file \"{p}\". Ignored.', stacklevel=2)\n            continue\n        supported_config_paths.append(p)\n    return supported_config_paths\n\n\nclass _GlobalConfigFiles(PydanticBaseSettings, extra=\"ignore\"):\n    \"\"\"Global config files for CLI.\n    Used to parse the config files from CLI.\n    \"\"\"\n\n    config_file: Annotated[\n        list[Path],\n        AfterValidator(_is_supported_config_file),\n    ] = Field(default_factory=list, description=\"The config files to use.\")\n\n    @computed_field\n    @property\n    def toml_file(self) -> list[Path]:\n        return [p for p in self.config_file if p.suffix.lower() == \".toml\"]\n\n    @computed_field\n    @property\n    def yaml_file(self) -> list[Path]:\n        return [p for p in self.config_file if p.suffix.lower() in (\".yaml\", \".yml\")]\n\n    @computed_field\n    @property\n    def json_file(self) -> list[Path]:\n        return [p for p in self.config_file if p.suffix.lower() == \".json\"]\n\n\n_g_config_files = _GlobalConfigFiles()\n\ndefault_settings_config_dict = SettingsConfigDict(  # pyright: ignore[reportIncompatibleVariableOverride]\n    cli_parse_args=True,\n    cli_ignore_unknown_args=True,\n    cli_exit_on_error=True,\n    cli_kebab_case=True,\n    env_file=\".env\",\n    env_nested_delimiter=\"__\",\n    extra=\"ignore\",\n    validate_default=True,\n)\n\n\nclass SettingsBase(PydanticBaseSettings):\n    \"\"\"Settings extended with CLI + Dotenv + Toml/Yaml/Json support.\n\n    The priority of the settings sources is:\n    - CLI arguments\n    - Environment variables\n    - Dotenv file\n    - Secret files\n    - Toml files (the last one has the highest priority)\n    - Yaml files (the last one has the highest priority)\n    - Json files (the last one has the highest priority)\n\n    Usage:\n\n    ```python\n    settings = SettingsBase.from_cli()\n    ```\n    \"\"\"\n\n    model_config: \"SettingsConfigDict\" = default_settings_config_dict\n\n    config_file: list[Path] = Field(\n        default_factory=list,\n        description=\"The config file to use.\",\n    )\n\n    @classmethod\n    def settings_customise_sources(\n        cls,\n        settings_cls: type[PydanticBaseSettings],\n        init_settings: PydanticBaseSettingsSource,\n        env_settings: PydanticBaseSettingsSource,\n        dotenv_settings: PydanticBaseSettingsSource,\n        file_secret_settings: PydanticBaseSettingsSource,\n    ) -> tuple[PydanticBaseSettingsSource, ...]:\n        # Customise the setting sources\n        # the first source has the highest priority\n        return (\n            env_settings,\n            dotenv_settings,\n            file_secret_settings,\n            TomlConfigSettingsSource(settings_cls, _g_config_files.toml_file),\n            YamlConfigSettingsSource(settings_cls, _g_config_files.yaml_file),\n            JsonConfigSettingsSource(settings_cls, _g_config_files.json_file),\n            init_settings,\n        )\n\n    @classmethod\n    def from_cli(cls, exit_on_error: bool = True):\n        \"\"\"Parse the arguments and return the settings instance.\n\n        Args:\n            exit_on_error (bool, optional): Whether to raise SystemExit when validation fails.\n                Defaults to True.\n\n        Raises:\n            SystemExit: If `exit_on_error` is True, raise a SystemExit when validation fails.\n            Exception: Otherwise, raise the original exception.\n\n        Returns:\n            TSettings: The parsed settings instance.\n        \"\"\"\n        try:\n            return parse_cli_args(cls)\n        except Exception as e:\n            if exit_on_error:\n                raise SystemExit(f\"ValidationError:\\n{e!s}\") from e\n            raise e\n\n\ndef parse_cli_args(cls_type: type[TSettings]) -> TSettings:\n    \"\"\"Parse the arguments and return the settings instance.\n\n    Args:\n        cls_type (type[TSettings]): The type of the settings class.\n\n    Returns:\n        TSettings: The parsed settings instance.\n    \"\"\"\n    # Handle help message and config files from CLI\n    if not sys.argv[1:] or \"--help\" in sys.argv or \"-h\" in sys.argv:\n        CliApp.run(cls_type, cli_args=[\"--help\"])\n        sys.exit(0)\n    if \"--config-file\" in sys.argv:\n        config_files = CliApp.run(_GlobalConfigFiles)\n        _g_config_files.config_file = config_files.config_file\n    # Handle settings from CLI\n    settings: TSettings = CliApp.run(cls_type)\n    # make sure the config attributes are consistent with parsed files\n    settings.config_file = _g_config_files.config_file\n    return settings\n"
+        }
+      ],
+      "id": "cgX5MKoV",
+      "createdAt": 1747383632167,
+      "updatedAt": 1750324832158
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "-ioqNk6R",
+      "tagsIds": [
+        "OB2CKMjY"
+      ],
+      "description": null,
+      "name": ".pre-commit-config.yaml | Example",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "yaml",
+          "value": "exclude: ^(configs/|model/|internvl_chat/|conversation.py|preprocess.py)\nrepos:\n- repo: https://github.com/astral-sh/ruff-pre-commit\n  # Ruff version.\n  rev: v0.11.12\n  hooks:\n    # Run the linter.\n    - id: ruff\n      args: [ --fix ]\n    # Run the formatter.\n    - id: ruff-format\n"
+        }
+      ],
+      "id": "3CZwz0cf",
+      "createdAt": 1749022940713,
+      "updatedAt": 1749044785699
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "OB2CKMjY",
+        "NS0L4eaN"
+      ],
+      "description": null,
+      "name": "loguru setup_loger()",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import datetime\nimport logging\nimport sys\nimport typing\nfrom pathlib import Path\n\nfrom loguru import logger\nfrom tqdm import tqdm\n\nLoggingLevel = typing.Literal[\"TRACE\", \"DEBUG\", \"INFO\", \"WARNING\", \"ERROR\", \"CRITICAL\"] | int\n\nDEFAULT_FORMAT = (\n    \"<level>[{time:YYYY-MM-DD HH:mm:ss.SSS}][{level}][{name}:{function}:{line}] {message}</level>\"\n)\n\n\ndef setup_logger(\n    log_dir: Path | str | None = None,\n    log_name: str | None = None,\n    *,\n    level: LoggingLevel = logging.DEBUG,\n    err_log: bool = True,\n    err_level: LoggingLevel = logging.ERROR,\n    mkdir: bool = False,\n    format: str = DEFAULT_FORMAT,\n    truncate: bool = False,\n    remove_other_handlers: bool = True,\n    with_tqdm: bool = True,\n) -> tuple[Path, Path | None] | tuple[None, None]:\n    \"\"\"Setup the logger to write to the given files. Powered by loguru.\n\n    Args:\n        log_dir (Path | str | None): The directory to write the logs to.\n            If not provided, the logs will be written to the stdout and stderr.\n        log_name (str | None): The name of the log file.\n            If not provided, the current time will be used.\n            Default is None.\n        level (LoggingLevel): The lowest log level to write the logs to.\n            Default is logging.DEBUG.\n        err_log (bool): Whether to write the error logs to a separate file.\n            If True, the error logs will be written to the file with the name name but with a suffix of \".err.log\".\n            Default is True.\n        err_level (LoggingLevel): The lowest log level to write the error logs to.\n            Default is logging.ERROR.\n        mkdir (bool): Whether to create the directory if it does not exist.\n            Default is False.\n        format (str): The format of the log message.\n            Default is DEFAULT_FORMAT.\n        truncate (bool): Whether to truncate the log file if it exists.\n            Default is False.\n        remove_other_handlers (bool): Whether to remove other handlers.\n            If True, the other handlers will be removed before adding the new handler.\n            Default is True.\n        with_tqdm (bool): Whether to write the tqdm progress output to the log.\n            Default is True.\n\n    Returns:\n        log_file_path (Path): The log file path.\n        err_log_file_path (Path | None): The error log file path if err_log is True, otherwise None.\n    \"\"\"\n    if remove_other_handlers:\n        # remove other handlers\n        logger.remove()\n\n    if with_tqdm:\n        # Add the tqdm progress handler (Not to the log file)\n        logger.add(lambda msg: tqdm.write(msg, end=\"\"))\n\n    if log_dir is None:\n        # Add the tqdm progress handler (Not to the log file)\n        logger.add(sys.stdout, colorize=True, format=format)\n        return None, None\n\n    log_dir_path = log_dir if isinstance(log_dir, Path) else Path(log_dir)\n    if not log_name:\n        log_name = datetime.datetime.now().strftime(\"%Y%m%d-%H%M%S\")\n    log_file_path = log_dir_path / f\"{log_name}.log\"\n    if mkdir:\n        log_file_path.parent.mkdir(parents=True, exist_ok=True)\n\n    # Add the log handler\n    if log_file_path.exists() and truncate:\n        log_file_path.unlink()\n    logger.add(\n        log_file_path,\n        level=level,\n        format=format,\n    )\n    # Add the error log handler\n    if err_log:\n        err_log_file_path = log_dir_path / f\"{log_name}.err.log\"\n        if err_log_file_path.exists() and truncate:\n            err_log_file_path.unlink()\n        logger.add(\n            err_log_file_path,\n            level=err_level,\n            format=format,\n        )\n    return log_file_path, err_log_file_path"
+        }
+      ],
+      "id": "i9jjMLEE",
+      "createdAt": 1749643290003,
+      "updatedAt": 1750327758019
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [
+        "OB2CKMjY",
+        "jJQfpmRH",
+        "6U0taZTQ"
+      ],
+      "description": "Show a spinner for time-consuming tasks, which we don't know how much items are there.",
+      "name": "rich Spinner",
+      "content": [
+        {
+          "label": "by Live",
+          "language": "python",
+          "value": "\"\"\"Show spinner.\n\nPowered by rich.\n\n[References](https://rich.readthedocs.io/en/stable/progress.html#advanced-usage)\n\nUsage:\n\n```python\nwith live_spinner(\"Downloading\"):\n\t\t# do something\n    pass\n```\n\"\"\"\n\nfrom contextlib import contextmanager\n\nimport rich\nfrom rich.live import Live\nfrom rich.spinner import Spinner\n\n@contextmanager\ndef live_spinner(text: str):\n    color = \"cyan\"\n    spinner = Spinner(\"aesthetic\", text=text, style=color)\n    with Live(spinner, refresh_per_second=20, transient=False):\n        yield\n    style = \"italic green\"\n    rich.print(f\":white_check_mark:[{style}]DONE[/{style}] {text}\")\n"
+        },
+        {
+          "label": "by Progress (*recommended)",
+          "language": "python",
+          "value": "\"\"\"Show spinner.\n\nPowered by rich.\n\n[References](https://rich.readthedocs.io/en/stable/progress.html#advanced-usage)\n\nUsage:\n\n```python\nwith progress_spinner(\"Loading...\"):\n    time.sleep(1)\n```\n\"\"\"\n\nfrom contextlib import contextmanager\n\nimport rich\nfrom rich.progress import (\n    Progress as richProgress,\n    SpinnerColumn,\n    TextColumn,\n    TimeElapsedColumn,\n)\n\n\n@contextmanager\ndef progress_spinner(text: str, *, transient: bool = False, spinner_name: str = \"aesthetic\"):\n    with richProgress(\n        SpinnerColumn(spinner_name),\n        TimeElapsedColumn(),\n        TextColumn(\"[progress.description]{task.description}\"),\n        transient=transient,\n    ) as progress:\n        progress.add_task(text, total=None)\n        try:\n            yield progress\n        except Exception as e:\n            STY = \"italic red\"\n            rich.print(f\":x: [{STY}]ERROR[/{STY}] during {text!s}: {e!s}\")\n            raise e\n"
+        }
+      ],
+      "id": "byCHEAI7",
+      "createdAt": 1750327711148,
+      "updatedAt": 1750846446643
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "YqqTEXuH"
+      ],
+      "description": null,
+      "name": "统计目录中的文件数量",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "/bin/ls -al | wc -l"
+        }
+      ],
+      "id": "-vfl5EZJ",
+      "createdAt": 1751019882723,
+      "updatedAt": 1751019906668
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "2BUNb8by",
+        "YqqTEXuH"
+      ],
+      "description": null,
+      "name": "rsync 上传/下载目录",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "# 下载:\nrsync -avz --progress user@remote-server:/path/to/remote/directory /path/to/local/directory\n\n# 选项说明：\n# -a 或 --archive：归档模式，表示递归传输并保持文件属性（等同于 -rlptgoD）。\n# -v 或 --verbose：详细模式，显示传输过程中的详细信息。\n# -z 或 --compress：压缩文件数据在传输过程中。\n# --progress：显示传输进度。\n\n# 上传:\nrsync -avz --progress /path/to/local/directory user@remote-server:/path/to/remote/directory\n"
+        }
+      ],
+      "id": "MLq14yWR",
+      "createdAt": 1752042344258,
+      "updatedAt": 1752042469479
+    }
+  ],
+  "tags": [
+    {
+      "name": "random",
+      "id": "4WbQqPRQ",
+      "createdAt": 1663146936843,
+      "updatedAt": 1663146936843
+    },
+    {
+      "name": "io",
+      "id": "pUptd7ln",
+      "createdAt": 1663146942229,
+      "updatedAt": 1663146942229
+    },
+    {
+      "name": "nginx",
+      "id": "XnUwR9Dh",
+      "createdAt": 1663560827369,
+      "updatedAt": 1663560827369
+    },
+    {
+      "name": "elixir",
+      "id": "O368MAht",
+      "createdAt": 1663560852479,
+      "updatedAt": 1663560852479
+    },
+    {
+      "name": "windows",
+      "id": "uGvsr2dk",
+      "createdAt": 1663561671114,
+      "updatedAt": 1663561671114
+    },
+    {
+      "name": "util",
+      "id": "6U0taZTQ",
+      "createdAt": 1663646994062,
+      "updatedAt": 1663646994062
+    },
+    {
+      "name": "web",
+      "id": "axZEQ4Cd",
+      "createdAt": 1663647224825,
+      "updatedAt": 1663647224825
+    },
+    {
+      "name": "pydantic",
+      "id": "LUCkjbM8",
+      "createdAt": 1663647691324,
+      "updatedAt": 1663647691324
+    },
+    {
+      "name": "json",
+      "id": "dYOw26u9",
+      "createdAt": 1663647856597,
+      "updatedAt": 1663647856597
+    },
+    {
+      "name": "cli",
+      "id": "jJQfpmRH",
+      "createdAt": 1663647867144,
+      "updatedAt": 1663647867144
+    },
+    {
+      "name": "shell",
+      "id": "YqqTEXuH",
+      "createdAt": 1664348228778,
+      "updatedAt": 1664348228778
+    },
+    {
+      "name": "blender",
+      "id": "qwAv090p",
+      "createdAt": 1676342379145,
+      "updatedAt": 1676342379145
+    },
+    {
+      "name": "ffmpeg",
+      "id": "cFl0ttHK",
+      "createdAt": 1679386821822,
+      "updatedAt": 1679386821822
+    },
+    {
+      "name": "linux",
+      "id": "2BUNb8by",
+      "createdAt": 1679386823925,
+      "updatedAt": 1679386823925
+    },
+    {
+      "name": "git",
+      "id": "j4aYGuze",
+      "createdAt": 1679386828526,
+      "updatedAt": 1679386828526
+    },
+    {
+      "name": "python",
+      "id": "OB2CKMjY",
+      "createdAt": 1720512088264,
+      "updatedAt": 1720512088264
+    },
+    {
+      "name": "just",
+      "id": "xN9Ypy8o",
+      "createdAt": 1720518577579,
+      "updatedAt": 1720518577579
+    },
+    {
+      "name": "frontend",
+      "id": "E9GSToKj",
+      "createdAt": 1740969659795,
+      "updatedAt": 1740969659795
+    },
+    {
+      "name": "loguru",
+      "id": "NS0L4eaN",
+      "createdAt": 1749643323825,
+      "updatedAt": 1749643323825
+    }
+  ]
+}
