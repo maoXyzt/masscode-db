@@ -1181,6 +1181,24 @@
       "id": "MLq14yWR",
       "createdAt": 1752042344258,
       "updatedAt": 1752042469479
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "zU28Afd-",
+      "tagsIds": [],
+      "description": null,
+      "name": "match case 语法进行类型匹配",
+      "content": [
+        {
+          "label": "子片段 1",
+          "language": "python",
+          "value": "values = [\n    1,\n    \"hello\",\n    True,\n    [1, 3],\n]\n\nfor v in values:\n    match v:\n        case str():\n            print(\"It is a string!\")\n        case bool():\n            print(\"It is a boolean!\")\n        case int():\n            print(\"It is an integer!\")\n        case Sequence():\n            # NOTE: cannot use `list()` here\n            print(\"It is a squence\")\n        case _:\n            print(f\"It is a {type(v)}!\")"
+        }
+      ],
+      "id": "enoMCqo9",
+      "createdAt": 1753550856278,
+      "updatedAt": 1753550979568
     }
   ],
   "tags": [
