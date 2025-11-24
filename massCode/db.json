@@ -45,26 +45,37 @@
       "index": 2
     },
     {
+      "name": "polars",
+      "parentId": "zU28Afd-",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "B6LYRbJx",
+      "createdAt": 1755252499424,
+      "updatedAt": 1755252507712,
+      "index": 3
+    },
+    {
+      "name": "duckdb",
+      "parentId": "zU28Afd-",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "E0-FnLub",
+      "createdAt": 1756448288758,
+      "updatedAt": 1756448293944,
+      "index": 4
+    },
+    {
       "name": "Python",
       "parentId": null,
-      "isOpen": true,
+      "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "python",
       "id": "zU28Afd-",
       "createdAt": 1663003353149,
       "updatedAt": 1663561442433,
       "index": 1
-    },
-    {
-      "name": "nginx",
-      "parentId": "NwKHla-1",
-      "isOpen": false,
-      "isSystem": false,
-      "defaultLanguage": "nginx",
-      "id": "7n_FFJOK",
-      "createdAt": 1663145692263,
-      "updatedAt": 1726832574080,
-      "index": 0
     },
     {
       "name": "Bash",
@@ -75,6 +86,17 @@
       "id": "Iet4JM1W",
       "createdAt": 1664348167637,
       "updatedAt": 1664348178868,
+      "index": 0
+    },
+    {
+      "name": "FFmpeg",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "El10Ht_I",
+      "createdAt": 1679386850491,
+      "updatedAt": 1679386888600,
       "index": 1
     },
     {
@@ -89,15 +111,37 @@
       "index": 2
     },
     {
-      "name": "FFmpeg",
+      "name": "nginx",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "nginx",
+      "id": "7n_FFJOK",
+      "createdAt": 1663145692263,
+      "updatedAt": 1726832574080,
+      "index": 3
+    },
+    {
+      "name": "SQLite3",
       "parentId": "NwKHla-1",
       "isOpen": false,
       "isSystem": false,
       "defaultLanguage": "plain_text",
-      "id": "El10Ht_I",
-      "createdAt": 1679386850491,
-      "updatedAt": 1679386888600,
-      "index": 3
+      "id": "aExxDtTu",
+      "createdAt": 1758258915927,
+      "updatedAt": 1758258926649,
+      "index": 4
+    },
+    {
+      "name": "zellij",
+      "parentId": "NwKHla-1",
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "ggERipaX",
+      "createdAt": 1753690624377,
+      "updatedAt": 1753690629835,
+      "index": 5
     },
     {
       "name": "Linux",
@@ -186,6 +230,17 @@
       "createdAt": 1663004143397,
       "updatedAt": 1663561389435,
       "index": 8
+    },
+    {
+      "name": "MacOS",
+      "parentId": null,
+      "isOpen": false,
+      "isSystem": false,
+      "defaultLanguage": "plain_text",
+      "id": "De7KNE1Q",
+      "createdAt": 1761909332783,
+      "updatedAt": 1761909337711,
+      "index": 9
     }
   ],
   "snippets": [
@@ -443,7 +498,7 @@
         {
           "label": "Fragment 1",
           "language": "python",
-          "value": "import datetime\nimport sys\nimport smtplib\nimport traceback\nfrom email.mime.text import MIMEText\nfrom email.message import Message\nfrom typing import List\n\n\nEMAIL_USER = \"haiyi.mei@qq.com\"\nEMAIL_PASS = \"jdcvulsxidpnbbad\"\n\n\nclass EmailSender:\n    EMAIL_HOST = \"smtp.qq.com\"\n    EMAIL_PORT = 465\n\n    def __init__(self, user: str, password: str, receivers: List[str]):\n        self.email_user = user\n        self.email_pass = password\n        self.receivers = receivers\n\n    def make_message(self):\n        body = (\n            f\"Write email body here\\n\"\n            f\"{datetime.datetime.now().isoformat()}\"\n        )\n        message = MIMEText(body, 'plain', 'utf8')\n        message['From'] = f'NameOfSender<{self.email_user}>'\n        message['To'] = ','.join(self.receivers)\n        message['Subject'] = f\"xxxxx\"\n        return message\n\n    @staticmethod\n    def _send_email(\n        msg: Message,\n        mail_host: str,\n        mail_port: int,\n        mail_user: str,\n        mail_pass: str\n    ):\n        try:\n            with smtplib.SMTP_SSL(mail_host, mail_port) as smtp:\n                smtp.connect(mail_host, mail_port)\n                smtp.login(mail_user, mail_pass)\n                smtp.send_message(msg)\n        except Exception:\n            error_msg = f\"EMAIL SENDING FAILED!\\n{traceback.format_exc()}\"\n            print(error_msg, file=sys.stderr)\n            return False, error_msg\n        else:\n            return True, \"Mail sended!\"\n\n    def send(self):\n        msg = self.make_message()\n        self._send_email(\n            msg,\n            mail_host=self.EMAIL_HOST,\n            mail_port=self.EMAIL_PORT,\n            mail_user=self.email_user,\n            mail_pass=self.email_pass,\n        )\n\n\nemail_sender = EmailSender(\n    EMAIL_USER, EMAIL_PASS,\n    receivers=[\"edwardyzt@gmail.com\"]\n)\nemail_sender.send()\n"
+          "value": "import datetime\nimport sys\nimport smtplib\nimport traceback\nfrom email.mime.text import MIMEText\nfrom email.message import Message\nfrom typing import List\n\n\nEMAIL_USER = \"haiyi.mei@qq.com\"\nEMAIL_PASS = \"jdcvulsxidpnbbad\"\n\n\nclass EmailSender:\n    EMAIL_HOST = \"smtp.qq.com\"\n    EMAIL_PORT = 465\n\n    def __init__(self, user: str, password: str, receivers: List[str]):\n        self.email_user = user\n        self.email_pass = password\n        self.receivers = receivers\n\n    def make_message(self):\n        body = (\n            f\"Write email body here\\n\"\n            f\"{datetime.datetime.now().isoformat()}\"\n        )\n        message = MIMEText(body, 'plain', 'utf8')\n        message['From'] = f'NameOfSender<{self.email_user}>'\n        message['To'] = ','.join(self.receivers)\n        message['Subject'] = f\"xxxxx\"\n        return message\n\n    @staticmethod\n    def _send_email(\n        msg: Message,\n        mail_host: str,\n        mail_port: int,\n        mail_user: str,\n        mail_pass: str\n    ):\n        try:\n            with smtplib.SMTP_SSL(mail_host, mail_port) as smtp:\n                smtp.connect(mail_host, mail_port)\n                smtp.login(mail_user, mail_pass)\n                smtp.send_message(msg)\n        except Exception:\n            error_msg = f\"EMAIL SENDING FAILED!\\n{traceback.format_exc()}\"\n            print(error_msg, file=sys.stderr)\n            return False, error_msg\n        else:\n            return True, \"Mail sended!\"\n\n    def send(self):\n        msg = self.make_message()\n        self._send_email(\n            msg,\n            mail_host=self.EMAIL_HOST,\n            mail_port=self.EMAIL_PORT,\n            mail_user=self.email_user,\n            mail_pass=self.email_pass,\n        )\n\n\nemail_sender = EmailSender(\n    EMAIL_USER, EMAIL_PASS,\n    receivers=[\"yangzhitao@sensetime.com\"]\n)\nemail_sender.send()\n"
         }
       ],
       "id": "nIlzsNCl",
@@ -664,12 +719,12 @@
         {
           "label": "Fragment 1",
           "language": "sh",
-          "value": "ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4\nffmpeg -framerate 30 -i %04d.png -c:v libx264 -pix_fmt yuv420p output.mp4\n\n# With frame numbers\n# * use `fc-list` to find an available font file\nffmpeg -framerate 30 -i img%03d.png -vf \"drawtext=fontfile=arial.ttf: text='%{frame_num}': start_number=1: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: fontsize=30: box=1: boxcolor=black@0.5: boxborderw=5\" -c:v libx264 -pix_fmt yuv420p output.mp4"
+          "value": "ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p out.mp4\nffmpeg -framerate 30 -i %04d.png -c:v libx264 -pix_fmt yuv420p output.mp4\n\n# With frame numbers\n# * use `fc-list` to find an available font file\nffmpeg -framerate 30 -i img%03d.png \\\n  -vf \"drawtext=fontfile=arial.ttf: text='%{frame_num}': start_number=1: x=(w-tw)/2: y=h-(2*lh): fontcolor=white: fontsize=30: box=1: boxcolor=black@0.5: boxborderw=5\" \\\n  -c:v libx264 \\\n  -pix_fmt yuv420p \\\n  output.mp4\n"
         }
       ],
       "id": "OHb5TaBt",
       "createdAt": 1679386809278,
-      "updatedAt": 1732170161170
+      "updatedAt": 1757563797771
     },
     {
       "isDeleted": false,
@@ -689,7 +744,7 @@
         {
           "label": "ruff only",
           "language": "toml",
-          "value": "[build-system]\nrequires = [\"setuptools >= 61.0\"]\nbuild-backend = \"setuptools.build_meta\"\n\n[tool.setuptools.packages.find]\nwhere = [\".\"]\ninclude = [\"*\"]\nexclude = []\nnamespaces = false\n\n[project]\nname = \"AnimoXtend\"\nversion = \"0.1.1\"\ndescription = \"Extension for Animo, empowering your animation creativity.\"\nreadme = \"README.md\"\nauthors = [\n    { name = \"YANG ZHITAO\", email = \"edwardyzt@gmail.com\" },\n]\nrequires-python = \">=3.10, <3.13\"\nlicense = { text = 'Apache License 2.0' }\nclassifiers = [\n    \"Operating System :: Microsoft :: Windows\",\n    \"Operating System :: Unix\",\n    \"Operating System :: MacOS\",\n    \"Operating System :: POSIX :: Linux\",\n    \"Development Status :: 4 - Beta\",\n    \"Programming Language :: Python :: 3.10\",\n    \"Programming Language :: Python :: 3.11\",\n    \"Programming Language :: Python :: 3.12\",\n    \"License :: OSI Approved :: Apache Software License\",\n]\nkeywords = []\ndependencies = [\n    \"requests\",\n]\n\n[project.optional-dependencies]\ndev = [\"ruff\", \"pre-commit\", \"git-cliff>=2.6\"]\n\n[tool.ruff]\nline-length = 120\n# Assume the minimum version is Python 3.10\ntarget-version = 'py310'\nfix = true\n\n[tool.ruff.format]\nquote-style = \"preserve\"\n\n[tool.ruff.lint]\nselect = [\n    \"E\",   # pycodestyle\n    \"F\",   # Pyflakes\n    \"B\",   # flake8-bugbear\n    \"TC\",  # flake8-type-checking\n    \"I\",   # isort\n    \"T20\", # flake8-print\n    \"N\",   # pep8-naming\n    # \"TID\", # flake8-tidy-imports\n    # \"UP\", # pyupgrade\n    # \"SIM\",    # flake8-simplify\n]\nunfixable = [\n    \"F401\", # unused imports\n    \"F841\", # unused variables\n]\n\n[tool.ruff.lint.per-file-ignores]\n# `E402` (import violations)\n\"__init__.py\" = [\"E402\"]\n\"examples/*\" = [\"E402\"]\n\"tests/*\" = [\"E402\"]\n\n[tool.ruff.lint.isort]\nknown-first-party = []\nknown-third-party = [\"bpy\"]\n\n[tool.ruff.lint.pep8-naming]\n# Allow Pydantic's `@validator` decorator to trigger class method treatment.\nclassmethod-decorators = [\"classmethod\", \"pydantic.validator\"]\n"
+          "value": "[build-system]\nrequires = [\"setuptools >= 61.0\"]\nbuild-backend = \"setuptools.build_meta\"\n\n[tool.setuptools.packages.find]\nwhere = [\".\"]\ninclude = [\"*\"]\nexclude = []\nnamespaces = false\n\n[project]\nname = \"AnimoXtend\"\nversion = \"0.1.1\"\ndescription = \"Extension for Animo, empowering your animation creativity.\"\nreadme = \"README.md\"\nauthors = [\n    { name = \"YANG ZHITAO\", email = \"yangzhtiao@sensetime.com\" },\n]\nrequires-python = \">=3.10, <3.13\"\nlicense = { text = 'Apache License 2.0' }\nclassifiers = [\n    \"Operating System :: Microsoft :: Windows\",\n    \"Operating System :: Unix\",\n    \"Operating System :: MacOS\",\n    \"Operating System :: POSIX :: Linux\",\n    \"Development Status :: 4 - Beta\",\n    \"Programming Language :: Python :: 3.10\",\n    \"Programming Language :: Python :: 3.11\",\n    \"Programming Language :: Python :: 3.12\",\n    \"License :: OSI Approved :: Apache Software License\",\n]\nkeywords = []\ndependencies = [\n    \"requests\",\n]\n\n[project.optional-dependencies]\ndev = [\"ruff\", \"pre-commit\", \"git-cliff>=2.6\"]\n\n[tool.ruff]\nline-length = 120\n# Assume the minimum version is Python 3.10\ntarget-version = 'py310'\nfix = true\n\n[tool.ruff.format]\nquote-style = \"preserve\"\n\n[tool.ruff.lint]\nselect = [\n    \"E\",   # pycodestyle\n    \"F\",   # Pyflakes\n    \"B\",   # flake8-bugbear\n    \"TC\",  # flake8-type-checking\n    \"I\",   # isort\n    \"T20\", # flake8-print\n    \"N\",   # pep8-naming\n    # \"TID\", # flake8-tidy-imports\n    # \"UP\", # pyupgrade\n    # \"SIM\",    # flake8-simplify\n]\nunfixable = [\n    \"F401\", # unused imports\n    \"F841\", # unused variables\n]\n\n[tool.ruff.lint.per-file-ignores]\n# `E402` (import violations)\n\"__init__.py\" = [\"E402\"]\n\"examples/*\" = [\"E402\"]\n\"tests/*\" = [\"E402\"]\n\n[tool.ruff.lint.isort]\nknown-first-party = []\nknown-third-party = [\"bpy\"]\n\n[tool.ruff.lint.pep8-naming]\n# Allow Pydantic's `@validator` decorator to trigger class method treatment.\nclassmethod-decorators = [\"classmethod\", \"pydantic.validator\"]\n"
         },
         {
           "label": "uv",
@@ -848,10 +903,11 @@
       "isFavorites": false,
       "folderId": "Iet4JM1W",
       "tagsIds": [
-        "YqqTEXuH"
+        "YqqTEXuH",
+        "2BUNb8by"
       ],
-      "description": "bash 脚本文件中，获取脚本自身所在的目录路径",
-      "name": "script get its directory path",
+      "description": "bash 脚本文件中，获取脚本自身所在的目录路径\n> 相关snippet: \"ps1 script get its directory path\"",
+      "name": "bash script get its directory path",
       "content": [
         {
           "label": "Fragment 1",
@@ -861,7 +917,7 @@
       ],
       "id": "zj6Ab_SN",
       "createdAt": 1740554098697,
-      "updatedAt": 1740554246974
+      "updatedAt": 1762756483886
     },
     {
       "isDeleted": false,
@@ -972,12 +1028,12 @@
         {
           "label": "Fragment 1",
           "language": "python",
-          "value": "# indent_style    设置缩进为 tab 或 space\n# tab_width       设置 tab 所占列数。默认是indent_size\n# indent_size     设置缩进所占列数，如果 indent_style 为 tab，则以 tab_width 值作为缩进宽度\n# end_of_line     设置换行符，值为lf、cr和crlf\n# charset         设置编码，值为latin1、utf-8、utf-8-bom、utf-16be和utf-16le，不建议使用utf-8-bom\n# trim_trailing_whitespace  设为 true 表示会去除行尾的空白字符\n# insert_final_newline      设为 true 表示使文件以一个空白行结尾\n# root        　　　表示是最顶层的配置文件，设为 true 时，停止向上查找\n[*]\ncharset = utf-8\nend_of_line = lf\nindent_style = space\ntrim_trailing_whitespace = true\n\n[*.py]\nindent_size = 4\ninsert_final_newline = true\n\n# max_line_length = 79  # preferred to config in ruff.toml\n\n[*.{toml,yaml,yml}]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100\n\n[*.{md}]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100"
+          "value": "# indent_style    设置缩进为 tab 或 space\n# tab_width       设置 tab 所占列数。默认是indent_size\n# indent_size     设置缩进所占列数，如果 indent_style 为 tab，则以 tab_width 值作为缩进宽度\n# end_of_line     设置换行符，值为lf、cr和crlf\n# charset         设置编码，值为latin1、utf-8、utf-8-bom、utf-16be和utf-16le，不建议使用utf-8-bom\n# trim_trailing_whitespace  设为 true 表示会去除行尾的空白字符\n# insert_final_newline      设为 true 表示使文件以一个空白行结尾\n# root        　　　表示是最顶层的配置文件，设为 true 时，停止向上查找\n[*]\ncharset = utf-8\nend_of_line = lf\nindent_style = space\ntrim_trailing_whitespace = true\n\n[*.py]\nindent_size = 4\ninsert_final_newline = true\n\n# max_line_length = 79  # preferred to config in ruff.toml\n\n[*.{toml,yaml,yml}]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100\n\n[*.{md}]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100\n\n[*.sh]\nindent_size = 2\ninsert_final_newline = true\n\nmax_line_length = 100\n"
         }
       ],
       "id": "ltFABh7P",
       "createdAt": 1741165726098,
-      "updatedAt": 1749023008743
+      "updatedAt": 1755055453248
     },
     {
       "isDeleted": true,
@@ -1086,12 +1142,12 @@
         {
           "label": "Fragment 1",
           "language": "yaml",
-          "value": "exclude: ^(configs/|model/|internvl_chat/|conversation.py|preprocess.py)\nrepos:\n- repo: https://github.com/astral-sh/ruff-pre-commit\n  # Ruff version.\n  rev: v0.11.12\n  hooks:\n    # Run the linter.\n    - id: ruff\n      args: [ --fix ]\n    # Run the formatter.\n    - id: ruff-format\n"
+          "value": "exclude: ^(configs/|model/|internvl_chat/|conversation.py|preprocess.py)\nrepos:\n- repo: https://github.com/astral-sh/ruff-pre-commit\n  # Ruff version.\n  rev: v0.14.2\n  hooks:\n    # Run the linter.\n    - id: ruff-check\n      args: [ --fix ]\n    # Run the formatter.\n    - id: ruff-format\n"
         }
       ],
       "id": "3CZwz0cf",
       "createdAt": 1749022940713,
-      "updatedAt": 1749044785699
+      "updatedAt": 1761559749882
     },
     {
       "isDeleted": false,
@@ -1185,20 +1241,200 @@
     {
       "isDeleted": false,
       "isFavorites": false,
-      "folderId": "zU28Afd-",
+      "folderId": "ggERipaX",
       "tagsIds": [],
-      "description": null,
-      "name": "match case 语法进行类型匹配",
+      "description": "通过 `zellij --layout layout.kdl` 命令使用\n官方文档: <https://zellij.dev/documentation/layouts.html>",
+      "name": "Zellij `layout.kdl` Example",
       "content": [
         {
-          "label": "子片段 1",
-          "language": "python",
-          "value": "values = [\n    1,\n    \"hello\",\n    True,\n    [1, 3],\n]\n\nfor v in values:\n    match v:\n        case str():\n            print(\"It is a string!\")\n        case bool():\n            print(\"It is a boolean!\")\n        case int():\n            print(\"It is an integer!\")\n        case Sequence():\n            # NOTE: cannot use `list()` here\n            print(\"It is a squence\")\n        case _:\n            print(f\"It is a {type(v)}!\")"
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "\nlayout {\n    pane split_direction=\"horizontal\" {\n        // tab-bar\n        pane size=1 borderless=true {\n            plugin location=\"zellij:tab-bar\"\n        }\n        // main pane\n        pane split_direction=\"vertical\" {\n            // backend service\n            pane command=\"./packages/cubicraft-web-app/run.sh\" {\n                cwd \"cubicraft\"\n                args \"--host\" \"0.0.0.0\" \"--port\" \"38090\"\n            }\n            // frontend service\n            pane split_direction=\"horizontal\" {\n                pane name=\"pnpm preview\" {\n                    cwd \"cubicraft-web\"\n                }\n                pane {\n                    cwd \"cubicraft-web\"\n                }\n            }\n        }\n        // status-bar\n        pane size=2 borderless=true {\n            plugin location=\"zellij:status-bar\"\n        }\n    }\n}\n"
         }
       ],
-      "id": "enoMCqo9",
-      "createdAt": 1753550856278,
-      "updatedAt": 1753550979568
+      "id": "N_S61Efy",
+      "createdAt": 1753690643534,
+      "updatedAt": 1753690824829
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "B6LYRbJx",
+      "tagsIds": [],
+      "description": null,
+      "name": "polars 基本用法",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import polars as pl\n\n# 读取文件\ndf = pl.read_parquet(\"path/to/file.parquet\")\nlf = df.lazy()\nlf = pl.scan_parquet(\"path/to/file.parquet\")\n\n# 获取元数据\nschema = df.schema\nschema = lf.collect_schema()\ncolumns = schema.names()\nn_rows = lf.select(lf.len()).collect().item()\n\n# 填充 ID 字段\nlf = lf.with_columns(\n    pl.arange(1, n_rows + 1).alias(\"id\")\n)\n\n# pl.coalesce\nlf = lf.with_columns(\n    pl.coalesce(\n        pl.col(\"is_valid\"),\n        False,\n    )\n)\n\n# pl.when\nlf = lf.with_columns(\n    pl.coalesce(\n        pl.col(\"is_image_valid\"),\n        pl.when(pl.col(\"image_count\").is_null() | pl.col(\"image_count\") == 0).then(False),\n    ).alias(\"is_image_valid\")\n)\n\ndf = lf.collect()\n\n# 保存\nlf.sink_parquet(\"path/to/file.parquet\")\n"
+        }
+      ],
+      "id": "BIdRF1qq",
+      "createdAt": 1755252511048,
+      "updatedAt": 1755253193004
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "sKmo_Qtt",
+      "tagsIds": [],
+      "description": null,
+      "name": "lru_cache 实现超时刷新",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "import time\nfrom functools import lru_cache\n\n\ndef get_s3_buckets(\n    s3_alter_idx: int | None = None,\n    *,\n    force_refresh: bool = False,\n    cache_ttl: int = 3600,\n):\n    if force_refresh:\n        _get_s3_buckets.cache_clear()\n    data, timestamp = _get_s3_buckets()\n    if time.time() - timestamp > cache_ttl:\n        # cache is expired, update it\n        _get_s3_buckets.cache_clear()\n        data, _ = _get_s3_buckets()\n    return buckets\n\n\n@lru_cache\ndef _get_s3_buckets():\n    data = do_something()\n    return data, time.time()\n"
+        }
+      ],
+      "id": "_zRRjIv2",
+      "createdAt": 1755853411223,
+      "updatedAt": 1755853536034
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "E0-FnLub",
+      "tagsIds": [],
+      "description": null,
+      "name": "duckdb over S3",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "# Get a duckdb connection with s3 accessibility\ndef duck_conn_with_s3(\n    s3_endpoint_url: str,\n    s3_access_key: str,\n    s3_secret_key: str,\n) -> DuckDBPyConnection:\n    if s3_endpoint_url.startswith(\"https://\"):\n        use_ssl = True\n        endpoint_url = s3_endpoint_url.removeprefix(\"https://\")\n    elif s3_endpoint_url.startswith(\"http://\"):\n        use_ssl = False\n        endpoint_url = s3_endpoint_url.removeprefix(\"http://\")\n    else:\n        raise ValueError(f\"Invalid S3 endpoint URL: {s3_endpoint_url!r}\")\n\n    conn = duckdb.connect()\n    try:\n        conn.execute(\"INSTALL httpfs\")\n        conn.execute(\"LOAD httpfs\")\n        conn.execute(\"SET s3_region = 'us-east-1'\")\n        conn.execute(f\"SET s3_endpoint = '{endpoint_url!s}'\")\n        conn.execute(f\"SET s3_access_key_id = '{s3_access_key!s}'\")\n        conn.execute(f\"SET s3_secret_access_key = '{s3_secret_key!s}'\")\n        conn.execute(\"SET s3_url_style = 'path'\")\n        conn.execute(f\"SET s3_use_ssl = {str(use_ssl).lower()}\")\n        # conn.execute(\n        #     S3_SECRET_SQL_TEMPLATE,\n        #     parameters={\n        #         \"key_id\": s3_access_key,\n        #         \"secret_key\": s3_secret_key,\n        #         \"endpoint_url\": endpoint_url,\n        #         \"use_ssl\": use_ssl,\n        #         \"url_style\": \"path\",\n        #     },\n        # )\n    except Exception as e:\n        e.add_note(f\"[!duck_conn_with_s3] s3_endpoint_url: {s3_endpoint_url!r}\")\n    return conn"
+        }
+      ],
+      "id": "XaC6TwsZ",
+      "createdAt": 1756448300590,
+      "updatedAt": 1756448397697
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "U0Pad1H_",
+      "tagsIds": [],
+      "description": null,
+      "name": "windows 软链接",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "powershell",
+          "value": "# 建立d:\\develop链接目录，指向远程的目标服务器上的e盘的对应目录\nmklink /d d:\\develop \\\\138.20.1.141\\e$\\develop\n\n# 用法说明\n# /d: 建立目录的符号链接(symbolic link)\n# /j: 建立目录的软链接(junction)，不能跨卷\n# /h: 建立文件的硬链接(hard link)，不能跨卷\n"
+        }
+      ],
+      "id": "uqKJmnjM",
+      "createdAt": 1757565255185,
+      "updatedAt": 1757577629790
+    },
+    {
+      "isDeleted": true,
+      "isFavorites": false,
+      "folderId": "Kg_CHTIf",
+      "tagsIds": [
+        "j4aYGuze"
+      ],
+      "description": null,
+      "name": ".gitattributes 模板",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "gitignore",
+          "value": "* text=auto eol=lf\n\n# python\n*.py text eol=lf encoding=utf-8\n\n# frontend codes\n*.{js,ts,vue} text eol=lf encoding=utf-8\n*.{css,scss,sass} text eol=lf encoding=utf-8\n*.html text eol=lf encoding=utf-8\n\n# scripts\n*.sh text eol=lf encoding=utf-8\n*.{ps1,bat} text eol=crlf\n\n# config\n*.{yml,yaml} text eol=lf encoding=utf-8\n*.toml text eol=lf encoding=utf-8\n*.json text eol=lf encoding=utf-8\n\n# text files\n*.{md,txt} text eol=lf encoding=utf-8\n\n# images\n*.{png,jpg,jpeg,gif,ico,tiff,bmp} binary\n\n# data\n*.npz binary\n"
+        }
+      ],
+      "id": "x0nz--hV",
+      "createdAt": 1757662454293,
+      "updatedAt": 1757662492137
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "aExxDtTu",
+      "tagsIds": [],
+      "description": "错误信息: database disk image is malformed",
+      "name": "修复损坏的sqlite3数据库文件",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "export DB_NAME=\"history.db\"\necho '.dump'|sqlite3 $DB_NAME|sqlite3 repaired_$DB_NAME\nmv $DB_NAME corrupt_$DB_NAME\nmv repaired_$DB_NAME $DB_NAME\n"
+        }
+      ],
+      "id": "6KlGAoNE",
+      "createdAt": 1758258960802,
+      "updatedAt": 1758263123222
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "zU28Afd-",
+      "tagsIds": [
+        "OB2CKMjY"
+      ],
+      "description": "可以在单文件脚本中定义依赖。\n[Inline script metadata](https://packaging.python.org/en/latest/specifications/inline-script-metadata/#inline-script-metadata)",
+      "name": "python inline script meta",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "python",
+          "value": "# /// script\n# requires-python = \">=3.11\"\n# dependencies = [\n#   \"requests<3\",\n#   \"rich\",\n# ]\n# ///\n#\n# Usage:\n# \n# uv run --script <this_script>.py\n#\n\nimport requests\nfrom rich.pretty import pprint\n\nresp = requests.get(\"https://peps.python.org/api/peps.json\")\ndata = resp.json()\npprint([(k, v[\"title\"]) for k, v in data.items()][:10])"
+        }
+      ],
+      "id": "Tc-JUly3",
+      "createdAt": 1761121081461,
+      "updatedAt": 1761121307577
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "De7KNE1Q",
+      "tagsIds": [],
+      "description": "修改 MacOS 系统的网络mac地址",
+      "name": "spoof_mac",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "sh",
+          "value": "sudo /System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport -z\nsudo ifconfig en0 ether a4:c3:37:78:4a:36 # mac accessible in BJ\nnetworksetup -detectnewhardware\nifconfig | grep a4:c3\n"
+        }
+      ],
+      "id": "khAoKjVC",
+      "createdAt": 1761909345213,
+      "updatedAt": 1761909395493
+    },
+    {
+      "isDeleted": false,
+      "isFavorites": false,
+      "folderId": "Iet4JM1W",
+      "tagsIds": [
+        "YqqTEXuH",
+        "uGvsr2dk"
+      ],
+      "description": "powershell 脚本文件中，获取脚本自身所在的目录路径\n> 相关snippet: \"script get its directory path\"",
+      "name": "ps1 script get its directory path Copy",
+      "content": [
+        {
+          "label": "Fragment 1",
+          "language": "powershell",
+          "value": "# powshell >= 3.0: 直接使用 $PSScriptRoot 变量\nWrite-Host \"脚本所在的目录是: $PSScriptRoot\"\n"
+        }
+      ],
+      "id": "gdpgHeHn",
+      "createdAt": 1762756441200,
+      "updatedAt": 1762756578357,
+      "folder": {
+        "name": "Bash",
+        "parentId": "NwKHla-1",
+        "isOpen": false,
+        "isSystem": false,
+        "defaultLanguage": "sh",
+        "id": "Iet4JM1W",
+        "createdAt": 1664348167637,
+        "updatedAt": 1664348178868,
+        "index": 0
+      }
     }
   ],
   "tags": [
